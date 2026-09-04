@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED",
+  "runId": "e2e-exact-candidate-proof-1-20260904T184108Z",
+  "error": "Proof lifecycle job failed: System.Management.Automation.RemoteException: Synthetic reboot probe did not observe a changed boot identity: No valid sessions were specified.  Ensure you provide valid sessions that are in the Opened state and are available to run commands.",
+  "passwordLogged": false
+}

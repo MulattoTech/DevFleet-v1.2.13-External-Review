@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entrypoint": "release-tooling/run_portable_audit_tests.py",
+  "pathAuthority": "release-tooling/audit_bundle_paths.py",
+  "portableTests": [
+    "source/tests/test_dependency_advisories.py",
+    "source/tests/test_release_fingerprint.py",
+    "source/tests/test_posix_zip_writer.py",
+    "source/tests/test_audit_coherence.py"
+  ],
+  "categories": {
+    "requiresHistoricalEvidence": ["**/test_failed_attempt_freeze.py"],
+    "requiresReleaseBinary": ["source/tests/test_installer_self_cleanup.py", "source/tests/test_verify_package_watchdog.py"],
+    "requiresPowerShell": ["source/tests/test_hardening8_windows_integrations.py", "source/tests/test_migration_integration.py"],
+    "windowsOnly": ["source/tests/test_host_agent_integration.py", "source/tests/test_v122_lifecycle_archive.py"],
+    "portable": ["source/tests/test_*.py"]
+  },
+  "excludedArtifacts": [
+    "historical failed-attempt evidence",
+    "compiled release binaries",
+    "nested release archives",
+    "original repository virtual-environment paths",
+    "VM images and credentials"
+  ],
+  "policy": {
+    "pythonInterpreter": "sys.executable",
+    "workingDirectory": "extracted bundle root",
+    "unknownClassification": "FAIL",
+    "excludedArtifactHandling": "SKIP with machine-readable reason"
+  }
+}

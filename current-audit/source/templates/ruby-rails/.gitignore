@@ -1,0 +1,13 @@
+.devfleet/runtime/
+.ai-bridge/local-agent/
+.env
+.env.*
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.next/
+coverage/
+*.log

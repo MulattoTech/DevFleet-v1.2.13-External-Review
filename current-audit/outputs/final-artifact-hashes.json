@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "releaseFingerprintSchemaVersion": 2,
+  "releaseVersion": "1.2.13",
+  "installerVersion": "1.4.1",
+  "repositoryHead": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+  "gitCommit": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+  "branch": "v1.2.13-audit-remediation",
+  "candidateGitCommit": "f2617e2277b4fb717058feec2ca93e30761f774b",
+  "shippingInputIdentity": "194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a",
+  "releaseFingerprintId": "6cd57a5c5a21b1f6ef142d695674eefaf4ab4d442b2a513c829b53989f3e3c9f",
+  "toolingFingerprintId": "5fdff42ff7b2ea11e6dad10bf09fbce981a9333b22f0ac4c22d0dab935b6a216",
+  "artifacts": [
+    {
+      "name": "exe",
+      "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+      "bytes": 72110632,
+      "sha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e"
+    },
+    {
+      "name": "tar",
+      "path": "outputs/devfleet-v1.2.13.tar.gz",
+      "bytes": 414517,
+      "sha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d"
+    },
+    {
+      "name": "portable",
+      "path": "outputs/DevFleet-v1.2.13-Portable-Codebase-Verified-r1.zip",
+      "bytes": 2671027,
+      "sha256": "d3edc43d1177a5bf7640b0f036bdb1b0a4729661d6b53231ddddbd164c203ff5"
+    },
+    {
+      "name": "installerSource",
+      "path": "outputs/DevFleet-v1.2.13-Installer-Source.zip",
+      "bytes": 749198,
+      "sha256": "242d339ccd378d470021361c6b1cd473657326c89bf296561efdbd51789b21ee"
+    }
+  ],
+  "preSignExe": {
+    "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+    "bytes": 72108761,
+    "sha256": "2be7ebb3a2f10b52b1af857a27832dec0d622925b0fd42fbcdeb7bfa05f214a7",
+    "authenticodeStatus": "NotSigned"
+  },
+  "sourceChangedSinceCandidate": false,
+  "rebuildRequired": false,
+  "sourceIdentityMatchesCandidate": true,
+  "artifactTupleMatchesCandidate": true,
+  "candidateBuildCurrent": true,
+  "candidateIsCurrent": true,
+  "validationEvidenceCurrent": false,
+  "fullReleasePassed": false,
+  "physicalSurrogateCertificationCurrent": false,
+  "internalPromotionAllowed": false,
+  "publicPromotionAllowed": false,
+  "releaseStatus": "BLOCKED",
+  "signingState": "PRIVATE SELF-SIGNED AUTHENTICODE — VALID ON EXPLICITLY TRUSTED PERSONAL/TEST SYSTEMS",
+  "signing": "PRIVATE SELF-SIGNED AUTHENTICODE — VALID ON EXPLICITLY TRUSTED PERSONAL/TEST SYSTEMS",
+  "privateSigningProfile": "PRIVATE_SELF_SIGNED",
+  "privateSigningCertificateThumbprint": "DE42CD7369A01E9357BDA13597C0173E5E703E9D",
+  "signerSubject": "CN=DevFleet Private Personal Code Signing",
+  "codeSigningEku": "1.3.6.1.5.5.7.3.3",
+  "rsaBits": 3072,
+  "privateKeyExportable": false,
+  "privateKeyExported": false,
+  "publicCertificate": {
+    "path": "outputs/DevFleet-Private-Personal-Code-Signing.cer",
+    "bytes": 1078,
+    "sha256": "cba81bc01314e633046691496789b30dc247771b21fa4c485aa6c1935ce987cc"
+  },
+  "publicPublisherTrust": false,
+  "timestampState": "NOT TIMESTAMPED — SignTool unavailable; Set-AuthenticodeSignature fallback used",
+  "gitClean": false,
+  "lineEndingComparison": "CRLF_ONLY",
+  "crlfOnlyPaths": [
+    "installer-source/DevFleet.Setup.Tests/DevFleet.Setup.Tests.csproj",
+    "installer-source/DevFleet.Setup/App.xaml",
+    "installer-source/DevFleet.Setup/AssemblyInfo.cs",
+    "source/MIGRATION-ROLLBACK.md",
+    "source/templates/cpp-cmake/.devfleet/template.json",
+    "source/templates/data-r/.devfleet/template.json",
+    "source/templates/dotnet-service/.devfleet/template.json",
+    "source/templates/elixir-phoenix/.devfleet/template.json",
+    "source/templates/flutter/.devfleet/template.json",
+    "source/templates/generic/.devfleet/template.json",
+    "source/templates/go-service/.devfleet/template.json",
+    "source/templates/java-spring/.devfleet/template.json",
+    "source/templates/kotlin-service/.devfleet/template.json",
+    "source/templates/node/.devfleet/template.json",
+    "source/templates/php-laravel/.devfleet/template.json",
+    "source/templates/python-fastapi/.devfleet/template.json",
+    "source/templates/python/.devfleet/template.json",
+    "source/templates/ruby-rails/.devfleet/template.json",
+    "source/templates/rust-service/.devfleet/template.json",
+    "source/templates/scientific-julia/.devfleet/template.json",
+    "source/templates/shell-automation/.devfleet/template.json",
+    "source/templates/sql-project/.devfleet/template.json",
+    "source/templates/typescript-next/.devfleet/template.json",
+    "source/templates/typescript-node/.devfleet/template.json"
+  ]
+}

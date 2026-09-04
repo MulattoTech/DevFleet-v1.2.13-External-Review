@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "expectedName": "DevFleet-E2E-Linux-01",
+  "present": false,
+  "timestamp": "2026-09-04T17:15:56.8152709Z",
+  "timestampUtc": "2026-09-04T17:15:56.8152709Z",
+  "verificationMethod": "Get-VM -Name exact returned no VM",
+  "ownershipScope": "exact expected disposable L2 name only"
+}

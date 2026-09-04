@@ -1,0 +1,1 @@
+package com.devfleet;import org.springframework.boot.*;import org.springframework.boot.autoconfigure.*;import org.springframework.web.bind.annotation.*;@SpringBootApplication@RestController public class Application{public static void main(String[]a){SpringApplication.run(Application.class,a);}@GetMapping("/healthz") public String health(){return "ok";}}

@@ -1,0 +1,8 @@
+{
+  "name": "__PROJECT_NAME__",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "dev",
+  "workspaceFolder": "/workspaces/__PROJECT_SLUG__",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "vscode"
+}

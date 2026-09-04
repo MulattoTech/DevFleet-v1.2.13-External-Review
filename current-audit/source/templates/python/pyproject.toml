@@ -1,0 +1,13 @@
+[build-system]
+requires=["setuptools>=70"]
+build-backend="setuptools.build_meta"
+[project]
+name="__PROJECT_SLUG__"
+version="0.1.0"
+requires-python=">=3.12"
+[project.optional-dependencies]
+dev=["pytest>=8,<9","ruff>=0.12,<1","mypy>=1.15,<2"]
+[tool.pytest.ini_options]
+pythonpath=["src"]
+[tool.mypy]
+strict=true

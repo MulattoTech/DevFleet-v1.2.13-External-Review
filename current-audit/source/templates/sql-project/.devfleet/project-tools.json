@@ -1,0 +1,11 @@
+{
+  "id": "sql-project",
+  "language": "sql",
+  "framework": "migrations",
+  "maturity": "preview",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "true",
+  "lint_command": "true",
+  "test_command": "./.devfleet/smoke-test.sh",
+  "health_command": "./.devfleet/health-check.sh"
+}

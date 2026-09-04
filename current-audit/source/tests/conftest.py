@@ -1,0 +1,7 @@
+import json,os,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'app'))
+TESTROOT=ROOT/'.test-runtime';
+for d in ('workspaces','quarantine','runtime','cache','static','templates'): (TESTROOT/d).mkdir(parents=True,exist_ok=True)
+config={'node_name':'test-node','deployment_id':'deployment-123','node_role':'primary','friendly_name':'CodexDevVM','portal_port':8787,'workspaces':str(TESTROOT/'workspaces'),'quarantine':str(TESTROOT/'quarantine'),'peer_file':str(TESTROOT/'peer.json'),'runtime_root':str(TESTROOT/'runtime'),'cache_root':str(TESTROOT/'cache'),'ollama_base_url':'http://127.0.0.1:11434/v1','ollama_model':'test-model','ollama_profile':'stable-interactive','development_profile':'balanced','docker_mode':'rootless','enable_shared_caches':True,'enable_analyzer_cache':True,'auto_start_codexpro':True,'allow_tailnet_ports':True,'backup_before_rebuild':False,'backup_before_quarantine':True,'require_tailscale':False,'tailnet_cidr':'100.64.0.0/10','public_binding_allowed':True}
+(TESTROOT/'config.json').write_text(json.dumps(config));(TESTROOT/'peer.json').write_text('{}');os.environ.update({'DEVFLEET_CONFIG_PATH':str(TESTROOT/'config.json'),'DEVFLEET_ADMIN_USER':'test','DEVFLEET_ADMIN_PASSWORD':'test-password','DEVFLEET_API_TOKEN':'test-token','DEVFLEET_STATIC_DIR':str(ROOT/'app/static'),'DEVFLEET_TEMPLATE_DIR':str(ROOT/'app/templates')})

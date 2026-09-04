@@ -1,0 +1,16 @@
+services:
+  dev:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm
+    user: "node"
+    working_dir: /workspaces/__PROJECT_SLUG__
+    command: sh -lc "sleep infinity"
+    init: true
+    volumes:
+      - .:/workspaces/__PROJECT_SLUG__:cached
+    ports:
+      - "127.0.0.1:3000:3000"
+    healthcheck:
+      test: ["CMD-SHELL", "test -d /workspaces/__PROJECT_SLUG__"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

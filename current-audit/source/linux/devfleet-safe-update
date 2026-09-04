@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+export DEBIAN_FRONTEND=noninteractive
+apt-get update
+apt-get -y upgrade
+systemctl restart tailscaled || true
+mode=$(jq -r '.docker_mode // "rootless"' /etc/devfleet/config.json)
+if [[ $mode == rootless ]]; then
+  uid=$(id -u devrunner)
+  sudo -u devrunner XDG_RUNTIME_DIR="/run/user/$uid" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" systemctl --user restart docker
+else
+  # rootful Docker inside the disposable VM
+  systemctl restart containerd docker
+fi
+systemctl restart devfleet
+systemctl restart devfleet-backup.timer

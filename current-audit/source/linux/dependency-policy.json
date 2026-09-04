@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "tailscale": {
+    "repository": "https://pkgs.tailscale.com/stable/ubuntu",
+    "signingKeySha256Fingerprint": "2596A99EAAB33821893C0A79458CA832957F5868"
+  },
+  "docker": {
+    "repository": "https://download.docker.com/linux/ubuntu",
+    "signingKeySha256Fingerprint": "9DC858229FC7DD38854AE2D88D81803C0EBFCD88"
+  },
+  "node": {
+    "source": "Ubuntu signed apt repository",
+    "minimumMajor": 18,
+    "devcontainersCliVersion": "0.80.1",
+    "devcontainersCliIntegrity": "sha512-FD6wq8ka2fVqybWooW++0UVTqo46TzxHblwTi9y58TqP3Qdx6iwMt/hzgjfcs865BtR36+wEg+qRPcKwxjzjBA=="
+  },
+  "restServer": {
+    "owner": "restic",
+    "repository": "rest-server",
+    "tag": "v0.14.0",
+    "asset": "rest-server_0.14.0_linux_amd64.tar.gz",
+    "sha256": "4c9c95bc079a0334e81fad379b19dc5c3353c71c2c88d652cafce2081c2b1c66",
+    "metadataSource": "https://api.github.com/repos/restic/rest-server/releases/tags/v0.14.0"
+  }
+}

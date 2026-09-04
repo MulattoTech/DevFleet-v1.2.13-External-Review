@@ -1,0 +1,17 @@
+{
+  "id": "python-fastapi",
+  "language": "python",
+  "framework": "fastapi",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "python -m ruff format .",
+  "lint_command": "python -m ruff check . && python -m mypy src",
+  "test_command": "python -m pytest -q",
+  "health_command": "python -c \"from app.main import app; assert app.title\"",
+  "start_command": "docker compose up -d --build",
+  "stop_command": "docker compose down --remove-orphans",
+  "restart_command": "docker compose restart",
+  "rebuild_command": "docker compose build && docker compose up -d",
+  "logs_command": "docker compose logs",
+  "codexpro_command": "./.devfleet/codexpro-bootstrap.sh"
+}

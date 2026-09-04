@@ -1,0 +1,436 @@
+{
+  "event": "MEANINGFUL_PROGRESS",
+  "observedUtc": "2026-09-04T19:52:06.9156183Z",
+  "startUtc": "2026-09-04T18:57:26.7790999Z",
+  "lastMeaningfulProgressUtc": "2026-09-04T19:52:06.9827699Z",
+  "noMeaningfulProgressDeadlineUtc": "2026-09-04T20:22:06.9827699Z",
+  "absoluteLifecycleDeadlineUtc": "2026-09-05T03:34:26.7790999Z",
+  "requestedBudgetSeconds": 30420,
+  "effectiveNoProgressBudgetSeconds": 1800,
+  "effectiveAbsoluteBudgetSeconds": 31020,
+  "candidateProcessId": 3340,
+  "transactionId": "cbee912129ab4f5e9d6550831ac59462",
+  "payloadSha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d",
+  "action": "FreshInstall",
+  "role": "Primary / Desktop",
+  "observation": {
+    "status": "",
+    "checkpointPresent": true,
+    "checkpoint": {
+      "transactionId": "cbee912129ab4f5e9d6550831ac59462",
+      "payloadSha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d",
+      "action": "FreshInstall",
+      "role": "Primary / Desktop",
+      "state": "waiting-for-reboot",
+      "generation": 1,
+      "checkpointGeneration": 1,
+      "completedStages": [],
+      "resumeStage": "bootstrap-entrypoint",
+      "lastWriteUtc": "2026-09-04T18:55:07.8137379Z"
+    },
+    "matchingConsumedReceipt": false,
+    "installStateValid": false,
+    "installLedger": null,
+    "installStateError": "installer ledger is absent",
+    "canonicalOwnershipValid": false,
+    "ownershipLedger": {
+      "InstallationGeneration": "88cade42-cb6a-4207-b5ef-3062313d27d5",
+      "Marker": "M-TechLabs DevFleet Host Agent",
+      "FirewallRules": [
+        {
+          "Name": "DevFleetHostAgent-8790-Multipass",
+          "DisplayName": "DevFleet Host Agent 8790 - Multipass",
+          "Group": "M-TechLabs DevFleet Host Agent",
+          "Description": "M-TechLabs DevFleet Host Agent v1.2.13; generation=88cade42-cb6a-4207-b5ef-3062313d27d5; scope=Multipass",
+          "Direction": "Inbound",
+          "Action": "Allow",
+          "Protocol": "TCP",
+          "LocalPort": "8790",
+          "InterfaceAlias": "vEthernet (Default Switch)",
+          "RemoteAddress": "172.27.48.1/20",
+          "Profile": "Any",
+          "Generation": "88cade42-cb6a-4207-b5ef-3062313d27d5",
+          "Marker": "M-TechLabs DevFleet Host Agent",
+          "Version": "1.2.13"
+        },
+        {
+          "Name": "DevFleetHostAgent-8790-Tailscale",
+          "DisplayName": "DevFleet Host Agent 8790 - Tailscale",
+          "Group": "M-TechLabs DevFleet Host Agent",
+          "Description": "M-TechLabs DevFleet Host Agent v1.2.13; generation=88cade42-cb6a-4207-b5ef-3062313d27d5; scope=Tailscale",
+          "Direction": "Inbound",
+          "Action": "Allow",
+          "Protocol": "TCP",
+          "LocalPort": "8790",
+          "InterfaceAlias": "Tailscale",
+          "RemoteAddress": "100.64.0.0/10",
+          "Profile": "Any",
+          "Generation": "88cade42-cb6a-4207-b5ef-3062313d27d5",
+          "Marker": "M-TechLabs DevFleet Host Agent",
+          "Version": "1.2.13"
+        }
+      ],
+      "UpdatedUtc": "2026-09-04T18:57:42.7329430Z",
+      "ScheduledTasks": [
+        {
+          "Name": "DevFleet Host Agent",
+          "Executable": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+          "Arguments": "-NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"C:\\ProgramData\\DevFleetHostAgent\\DevFleet-HostAgent.ps1\" -ConfigPath \"C:\\ProgramData\\DevFleetHostAgent\\config.json\"",
+          "Principal": "SYSTEM",
+          "LogonType": "ServiceAccount",
+          "RunLevel": "Highest",
+          "Description": "M-TechLabs DevFleet Host Agent v1.2.13; generation=88cade42-cb6a-4207-b5ef-3062313d27d5",
+          "Generation": "88cade42-cb6a-4207-b5ef-3062313d27d5",
+          "Marker": "M-TechLabs DevFleet Host Agent",
+          "Version": "1.2.13"
+        }
+      ],
+      "SchemaVersion": 1,
+      "DevFleetVersion": "1.2.13",
+      "Services": []
+    },
+    "ownershipStateError": "",
+    "authenticatedHealthOk": false,
+    "authenticatedHealthError": "authenticated health unavailable",
+    "terminalFailure": false,
+    "failure": "",
+    "error": "",
+    "terminalReason": "",
+    "observerCallTimedOut": false,
+    "observerCallFailed": false,
+    "candidateProcessExited": false,
+    "candidateProcess": {
+      "pid": 3340,
+      "parentPid": 12048,
+      "name": "DevFleet-Setup-v1.2.13-win-x64.exe",
+      "path": "C:\\Users\\Public\\DevFleet-E2E\\e2e-exact-candidate-proof-1-20260904T184913Z\\REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718\\DevFleet-Setup-v1.2.13-win-x64.exe",
+      "sessionId": 1,
+      "commandLineRedacted": "DevFleet-Setup-v1.2.13-win-x64.exe DevFleet-Setup <arguments redacted>",
+      "commandClass": "DevFleet-Setup",
+      "startTimeUtc": "2026-09-04T18:56:48.7864813Z",
+      "cpuSeconds": 10.531,
+      "responding": true
+    },
+    "processTree": [
+      {
+        "pid": 3340,
+        "parentPid": 12048,
+        "name": "DevFleet-Setup-v1.2.13-win-x64.exe",
+        "path": "C:\\Users\\Public\\DevFleet-E2E\\e2e-exact-candidate-proof-1-20260904T184913Z\\REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718\\DevFleet-Setup-v1.2.13-win-x64.exe",
+        "sessionId": 1,
+        "commandLineRedacted": "DevFleet-Setup-v1.2.13-win-x64.exe DevFleet-Setup <arguments redacted>",
+        "commandClass": "DevFleet-Setup",
+        "startTimeUtc": "2026-09-04T18:56:48.7864813Z",
+        "cpuSeconds": 10.531,
+        "responding": true
+      },
+      {
+        "pid": 6868,
+        "parentPid": 904,
+        "name": "multipassd.exe",
+        "path": "C:\\Program Files\\Multipass\\bin\\multipassd.exe",
+        "sessionId": 0,
+        "commandLineRedacted": "multipassd.exe multipass <arguments redacted>",
+        "commandClass": "multipass",
+        "startTimeUtc": "2026-09-04T18:57:32.9476407Z",
+        "cpuSeconds": 15.672,
+        "responding": true
+      },
+      {
+        "pid": 10880,
+        "parentPid": 6868,
+        "name": "powershell.exe",
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "sessionId": 0,
+        "commandLineRedacted": "powershell.exe candidate-child <arguments redacted>",
+        "commandClass": "candidate-child",
+        "startTimeUtc": "2026-09-04T18:58:36.7489381Z",
+        "cpuSeconds": 2.766,
+        "responding": true
+      },
+      {
+        "pid": 10956,
+        "parentPid": 11036,
+        "name": "pwsh.exe",
+        "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "sessionId": 1,
+        "commandLineRedacted": "pwsh.exe Install-DevFleet <arguments redacted>",
+        "commandClass": "Install-DevFleet",
+        "startTimeUtc": "2026-09-04T18:57:16.6969683Z",
+        "cpuSeconds": 19.25,
+        "responding": true
+      },
+      {
+        "pid": 11036,
+        "parentPid": 3340,
+        "name": "pwsh.exe",
+        "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "sessionId": 1,
+        "commandLineRedacted": "pwsh.exe Bootstrap-Install <arguments redacted>",
+        "commandClass": "Bootstrap-Install",
+        "startTimeUtc": "2026-09-04T18:57:15.6191756Z",
+        "cpuSeconds": 0.875,
+        "responding": true
+      },
+      {
+        "pid": 11328,
+        "parentPid": 10956,
+        "name": "multipass.exe",
+        "path": "C:\\Program Files\\Multipass\\bin\\multipass.exe",
+        "sessionId": 1,
+        "commandLineRedacted": "multipass.exe multipass <arguments redacted>",
+        "commandClass": "multipass",
+        "startTimeUtc": "2026-09-04T18:59:30.0885547Z",
+        "cpuSeconds": 3024.812,
+        "responding": true
+      },
+      {
+        "pid": 11624,
+        "parentPid": 11884,
+        "name": "powershell.exe",
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "sessionId": 0,
+        "commandLineRedacted": "powershell.exe candidate-child <arguments redacted>",
+        "commandClass": "candidate-child",
+        "startTimeUtc": "2026-09-04T18:57:26.2091899Z",
+        "cpuSeconds": 1.594,
+        "responding": true
+      },
+      {
+        "pid": 12564,
+        "parentPid": 1780,
+        "name": "pwsh.exe",
+        "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "sessionId": 0,
+        "commandLineRedacted": "pwsh.exe candidate-child <arguments redacted>",
+        "commandClass": "candidate-child",
+        "startTimeUtc": "2026-09-04T18:57:42.7493845Z",
+        "cpuSeconds": 4.625,
+        "responding": true
+      },
+      {
+        "pid": 13128,
+        "parentPid": 11884,
+        "name": "powershell.exe",
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "sessionId": 0,
+        "commandLineRedacted": "powershell.exe candidate-child <arguments redacted>",
+        "commandClass": "candidate-child",
+        "startTimeUtc": "2026-09-04T19:52:05.5581320Z",
+        "cpuSeconds": 0.547,
+        "responding": true
+      }
+    ],
+    "bootstrap": [
+      {
+        "path": "C:\\ProgramData\\M-TechLabs\\DevFleet\\Installer\\Bootstrap-Install.ps1",
+        "present": false
+      },
+      {
+        "path": "C:\\ProgramData\\M-TechLabs\\DevFleet\\Installer\\Install-DevFleet.ps1",
+        "present": false
+      }
+    ],
+    "activeTransaction": {
+      "path": "C:\\ProgramData\\DevFleet\\active-transaction.json",
+      "transactionId": "cbee912129ab4f5e9d6550831ac59462",
+      "payloadSha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d",
+      "action": "FreshInstall",
+      "role": "Desktop",
+      "preparedUtc": "2026-09-04T18:57:14.6454327Z",
+      "lastWriteUtc": "2026-09-04T18:57:14.6658987Z"
+    },
+    "stageMarkers": [
+      {
+        "name": "stage-host-agent.complete",
+        "path": "C:\\ProgramData\\DevFleet\\stage-host-agent.complete",
+        "transactionId": "cbee912129ab4f5e9d6550831ac59462",
+        "payloadSha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d",
+        "action": "FreshInstall",
+        "role": "Desktop",
+        "stage": "stage-host-agent",
+        "lastWriteUtc": "2026-09-04T18:57:44.0215778Z",
+        "sha256": "1a46fd46d802a2bb5db61bdd6f4f28ecbd4d81b1195f4e4fc31ad13169be1c25"
+      },
+      {
+        "name": "stage-prereqs-Desktop.complete",
+        "path": "C:\\ProgramData\\DevFleet\\stage-prereqs-Desktop.complete",
+        "transactionId": "cbee912129ab4f5e9d6550831ac59462",
+        "payloadSha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d",
+        "action": "FreshInstall",
+        "role": "Desktop",
+        "stage": "stage-prereqs-Desktop",
+        "lastWriteUtc": "2026-09-04T18:57:35.6280350Z",
+        "sha256": "e75364f0f7ecaa352fdd16a30bb689368eb6411f6e13e30f3e3bbf3af7c3958a"
+      }
+    ],
+    "servicing": {
+      "cbsRebootPending": true,
+      "windowsUpdateRebootRequired": true,
+      "pendingFileRenamePairCount": 0,
+      "ownedPendingFileRenamePairs": [],
+      "foreignPendingFileRenamePairCount": 0
+    },
+    "hostAgentTaskState": "Running",
+    "hostAgentListener": true,
+    "progress": {
+      "checkpointState": "waiting-for-reboot",
+      "completedStages": {},
+      "resumeStage": "bootstrap-entrypoint",
+      "stages": [
+        {
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\system32\\conhost.exe",
+          "commandClass": "candidate-child"
+        },
+        {
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\system32\\conhost.exe",
+          "commandClass": "candidate-child"
+        },
+        {
+          "name": "DevFleet-Setup-v1.2.13-win-x64.exe",
+          "path": "C:\\Users\\Public\\DevFleet-E2E\\e2e-exact-candidate-proof-1-20260904T184913Z\\REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718\\DevFleet-Setup-v1.2.13-win-x64.exe",
+          "commandClass": "DevFleet-Setup"
+        },
+        {
+          "name": "multipass.exe",
+          "path": "C:\\Program Files\\Multipass\\bin\\multipass.exe",
+          "commandClass": "multipass"
+        },
+        {
+          "name": "pwsh.exe",
+          "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+          "commandClass": "Bootstrap-Install"
+        },
+        {
+          "name": "pwsh.exe",
+          "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+          "commandClass": "Install-DevFleet"
+        }
+      ],
+      "productChildInstances": [
+        {
+          "pid": 2900,
+          "parentPid": 11328,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\system32\\conhost.exe",
+          "sessionId": 1,
+          "commandLineRedacted": "conhost.exe candidate-child <arguments redacted>",
+          "commandClass": "candidate-child",
+          "startTimeUtc": "2026-09-04T18:59:30.0933714Z",
+          "cpuSeconds": 0.016,
+          "responding": true
+        },
+        {
+          "pid": 1088,
+          "parentPid": 11036,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\system32\\conhost.exe",
+          "sessionId": 1,
+          "commandLineRedacted": "conhost.exe candidate-child <arguments redacted>",
+          "commandClass": "candidate-child",
+          "startTimeUtc": "2026-09-04T18:57:15.7287665Z",
+          "cpuSeconds": 0.031,
+          "responding": true
+        },
+        {
+          "pid": 3340,
+          "parentPid": 12048,
+          "name": "DevFleet-Setup-v1.2.13-win-x64.exe",
+          "path": "C:\\Users\\Public\\DevFleet-E2E\\e2e-exact-candidate-proof-1-20260904T184913Z\\REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718\\DevFleet-Setup-v1.2.13-win-x64.exe",
+          "sessionId": 1,
+          "commandLineRedacted": "DevFleet-Setup-v1.2.13-win-x64.exe DevFleet-Setup <arguments redacted>",
+          "commandClass": "DevFleet-Setup",
+          "startTimeUtc": "2026-09-04T18:56:48.7864813Z",
+          "cpuSeconds": 10.531,
+          "responding": true
+        },
+        {
+          "pid": 11328,
+          "parentPid": 10956,
+          "name": "multipass.exe",
+          "path": "C:\\Program Files\\Multipass\\bin\\multipass.exe",
+          "sessionId": 1,
+          "commandLineRedacted": "multipass.exe multipass <arguments redacted>",
+          "commandClass": "multipass",
+          "startTimeUtc": "2026-09-04T18:59:30.0885547Z",
+          "cpuSeconds": 3024.859,
+          "responding": true
+        },
+        {
+          "pid": 11036,
+          "parentPid": 3340,
+          "name": "pwsh.exe",
+          "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+          "sessionId": 1,
+          "commandLineRedacted": "pwsh.exe Bootstrap-Install <arguments redacted>",
+          "commandClass": "Bootstrap-Install",
+          "startTimeUtc": "2026-09-04T18:57:15.6191756Z",
+          "cpuSeconds": 0.875,
+          "responding": true
+        },
+        {
+          "pid": 10956,
+          "parentPid": 11036,
+          "name": "pwsh.exe",
+          "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+          "sessionId": 1,
+          "commandLineRedacted": "pwsh.exe Install-DevFleet <arguments redacted>",
+          "commandClass": "Install-DevFleet",
+          "startTimeUtc": "2026-09-04T18:57:16.6969683Z",
+          "cpuSeconds": 19.25,
+          "responding": true
+        }
+      ],
+      "cpuSeconds": 3055.562,
+      "candidateProcessPresent": true,
+      "candidateResponsive": true,
+      "activeTransactionSha256": "20ce51a4e640fcb26bf2a777e97dbb58de74f5ed601151a9030d242774a2240c",
+      "stageMarkerSet": "stage-host-agent.complete:1a46fd46d802a2bb5db61bdd6f4f28ecbd4d81b1195f4e4fc31ad13169be1c25|stage-prereqs-Desktop.complete:e75364f0f7ecaa352fdd16a30bb689368eb6411f6e13e30f3e3bbf3af7c3958a",
+      "servicingState": "{\"cbsRebootPending\":true,\"windowsUpdateRebootRequired\":true,\"pendingFileRenamePairCount\":0,\"ownedPendingFileRenamePairs\":[],\"foreignPendingFileRenamePairCount\":0}",
+      "installStateSha256": null,
+      "ownershipSha256": "56d834ba77ef7e66ba49a456f8792b3e780d2439f2369f7079ff47dec1035150",
+      "receiptMatch": false,
+      "health": false,
+      "hostAgentTaskState": "Running",
+      "listener": true,
+      "checkpointGeneration": 1
+    },
+    "progressMarker": "{\"checkpointState\":\"waiting-for-reboot\",\"completedStages\":{},\"resumeStage\":\"bootstrap-entrypoint\",\"stages\":[{\"name\":\"conhost.exe\",\"path\":\"C:\\\\Windows\\\\system32\\\\conhost.exe\",\"commandClass\":\"candidate-child\"},{\"name\":\"conhost.exe\",\"path\":\"C:\\\\Windows\\\\system32\\\\conhost.exe\",\"commandClass\":\"candidate-child\"},{\"name\":\"DevFleet-Setup-v1.2.13-win-x64.exe\",\"path\":\"C:\\\\Users\\\\Public\\\\DevFleet-E2E\\\\e2e-exact-candidate-proof-1-20260904T184913Z\\\\REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718\\\\DevFleet-Setup-v1.2.13-win-x64.exe\",\"commandClass\":\"DevFleet-Setup\"},{\"name\":\"multipass.exe\",\"path\":\"C:\\\\Program Files\\\\Multipass\\\\bin\\\\multipass.exe\",\"commandClass\":\"multipass\"},{\"name\":\"pwsh.exe\",\"path\":\"C:\\\\Program Files\\\\PowerShell\\\\7\\\\pwsh.exe\",\"commandClass\":\"Bootstrap-Install\"},{\"name\":\"pwsh.exe\",\"path\":\"C:\\\\Program Files\\\\PowerShell\\\\7\\\\pwsh.exe\",\"commandClass\":\"Install-DevFleet\"}],\"productChildInstances\":[{\"pid\":2900,\"parentPid\":11328,\"name\":\"conhost.exe\",\"path\":\"C:\\\\Windows\\\\system32\\\\conhost.exe\",\"sessionId\":1,\"commandLineRedacted\":\"conhost.exe candidate-child \\u003carguments redacted\\u003e\",\"commandClass\":\"candidate-child\",\"startTimeUtc\":\"2026-09-04T18:59:30.0933714Z\",\"cpuSeconds\":0.016,\"responding\":true},{\"pid\":1088,\"parentPid\":11036,\"name\":\"conhost.exe\",\"path\":\"C:\\\\Windows\\\\system32\\\\conhost.exe\",\"sessionId\":1,\"commandLineRedacted\":\"conhost.exe candidate-child \\u003carguments redacted\\u003e\",\"commandClass\":\"candidate-child\",\"startTimeUtc\":\"2026-09-04T18:57:15.7287665Z\",\"cpuSeconds\":0.031,\"responding\":true},{\"pid\":3340,\"parentPid\":12048,\"name\":\"DevFleet-Setup-v1.2.13-win-x64.exe\",\"path\":\"C:\\\\Users\\\\Public\\\\DevFleet-E2E\\\\e2e-exact-candidate-proof-1-20260904T184913Z\\\\REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718\\\\DevFleet-Setup-v1.2.13-win-x64.exe\",\"sessionId\":1,\"commandLineRedacted\":\"DevFleet-Setup-v1.2.13-win-x64.exe DevFleet-Setup \\u003carguments redacted\\u003e\",\"commandClass\":\"DevFleet-Setup\",\"startTimeUtc\":\"2026-09-04T18:56:48.7864813Z\",\"cpuSeconds\":10.531,\"responding\":true},{\"pid\":11328,\"parentPid\":10956,\"name\":\"multipass.exe\",\"path\":\"C:\\\\Program Files\\\\Multipass\\\\bin\\\\multipass.exe\",\"sessionId\":1,\"commandLineRedacted\":\"multipass.exe multipass \\u003carguments redacted\\u003e\",\"commandClass\":\"multipass\",\"startTimeUtc\":\"2026-09-04T18:59:30.0885547Z\",\"cpuSeconds\":3024.859,\"responding\":true},{\"pid\":11036,\"parentPid\":3340,\"name\":\"pwsh.exe\",\"path\":\"C:\\\\Program Files\\\\PowerShell\\\\7\\\\pwsh.exe\",\"sessionId\":1,\"commandLineRedacted\":\"pwsh.exe Bootstrap-Install \\u003carguments redacted\\u003e\",\"commandClass\":\"Bootstrap-Install\",\"startTimeUtc\":\"2026-09-04T18:57:15.6191756Z\",\"cpuSeconds\":0.875,\"responding\":true},{\"pid\":10956,\"parentPid\":11036,\"name\":\"pwsh.exe\",\"path\":\"C:\\\\Program Files\\\\PowerShell\\\\7\\\\pwsh.exe\",\"sessionId\":1,\"commandLineRedacted\":\"pwsh.exe Install-DevFleet \\u003carguments redacted\\u003e\",\"commandClass\":\"Install-DevFleet\",\"startTimeUtc\":\"2026-09-04T18:57:16.6969683Z\",\"cpuSeconds\":19.25,\"responding\":true}],\"cpuSeconds\":3055.562,\"candidateProcessPresent\":true,\"candidateResponsive\":true,\"activeTransactionSha256\":\"20ce51a4e640fcb26bf2a777e97dbb58de74f5ed601151a9030d242774a2240c\",\"stageMarkerSet\":\"stage-host-agent.complete:1a46fd46d802a2bb5db61bdd6f4f28ecbd4d81b1195f4e4fc31ad13169be1c25|stage-prereqs-Desktop.complete:e75364f0f7ecaa352fdd16a30bb689368eb6411f6e13e30f3e3bbf3af7c3958a\",\"servicingState\":\"{\\\"cbsRebootPending\\\":true,\\\"windowsUpdateRebootRequired\\\":true,\\\"pendingFileRenamePairCount\\\":0,\\\"ownedPendingFileRenamePairs\\\":[],\\\"foreignPendingFileRenamePairCount\\\":0}\",\"installStateSha256\":null,\"ownershipSha256\":\"56d834ba77ef7e66ba49a456f8792b3e780d2439f2369f7079ff47dec1035150\",\"receiptMatch\":false,\"health\":false,\"hostAgentTaskState\":\"Running\",\"listener\":true,\"checkpointGeneration\":1}",
+    "rawActiveLifecycleSignals": [
+      {
+        "path": "checkpointPresent",
+        "kind": "checkpointPresent",
+        "value": "true"
+      },
+      {
+        "path": "checkpoint",
+        "kind": "checkpoint",
+        "value": "present"
+      },
+      {
+        "path": "checkpoint.state",
+        "kind": "waiting-for-reboot",
+        "value": "true"
+      },
+      {
+        "path": "checkpoint.generation",
+        "kind": "generation",
+        "value": "1"
+      },
+      {
+        "path": "checkpoint.checkpointGeneration",
+        "kind": "checkpointgeneration",
+        "value": "1"
+      },
+      {
+        "path": "progress.checkpointGeneration",
+        "kind": "checkpointgeneration",
+        "value": "1"
+      }
+    ],
+    "rawActiveLifecycleSignalCount": 6,
+    "timestampUtc": "2026-09-04T19:52:06.9156183Z"
+  }
+}

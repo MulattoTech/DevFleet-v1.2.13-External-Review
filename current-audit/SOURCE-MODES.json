@@ -1,0 +1,4013 @@
+[
+  {
+    "path": "automation/release-e2e/Initialize-DevFleetE2ESecrets.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/Cargo.toml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/health-check.sh",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/smoke-test.sh",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/src/app/__init__.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/src/app/main.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/tests/test_smoke.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/ruby-rails/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/shell-automation/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/shell-automation/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/shell-automation/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/rust-service/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/rust-service/src/main.rs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/scientific-julia/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/python-fastapi/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/node/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/node/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/node/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/node/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/node/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/src/index.js",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/test/index.test.js",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/kotlin-service/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/package.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/node/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/python/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/python/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/python/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/src/app/__init__.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/src/app/main.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/tests/test_smoke.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/pyproject.toml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python-fastapi/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/php-laravel/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/php-laravel/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/pyproject.toml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/python/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v1211_stopped_capabilities.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v122_auth_snapshot_package.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v122_lifecycle_archive.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v122_main_endpoints.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v122_ui.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v123_contracts.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v123_durable_operations.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v124_environment_wizard.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v124_migration_transaction.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v1211_release_contract.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v124_vm_backups.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v125_jobfinder_hotfix.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v126_dynamic_vm_hotfix.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v127_project_ux.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v128_container_workspace.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_verify_package_watchdog.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_worktrees_and_v1_restore.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/Test-DependencyTrustedRoot.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/Test-DevFleetHostAgentCurrent.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/Test-HostSecretRecovery.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v124_vm_creation_ssh.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_v121_auth_performance.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_upgrade_preservation.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_transitive_hook_closure.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_installed_dependency_authenticity.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_installer_self_cleanup.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_language_templates.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_laptop_profile.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_migration_integration.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_network_policy.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_node_registry.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_ollama.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_operations_leases.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_package_structure.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_packaging_hygiene.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_posix_zip_writer.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_profiles.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_project_safety.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_release_fingerprint.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_release_reproducibility.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_remediation_contract.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_request_admission.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_runtime_architecture.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_security_config.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_security_poison_harness.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/Test-PendingReboot.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/Test-ProcessOutputDrain.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/Test-WindowsIntegrationOwnership.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/build_release.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/DevFleet-HostAgent.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/DevFleet-HostAgentProtocol.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/DevFleet-VSCode.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/DevFleet-WindowsIntegrationOwnership.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/DevFleet.Common.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Export-Diagnostics.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Export-Vault-OfflineCopy.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Install-DevFleet-HostAgent.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Invoke-Quarantine-Maintenance.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Invoke-Vault-Maintenance.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Migrate-Config.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Remove-DevFleet-OwnedIntegrations.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Repair-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Repair-DevFleetHostSecrets.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Set-DevFleetDockerMode.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Show-DevFleet-Credentials.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Start-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Stop-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Test-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Test-Ollama.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Update-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Configure-Ollama.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_host_transport.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Configure-GitHub.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Complete-Cluster.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/Build-InstallerSourceZip.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/check_dependency_advisories.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/hook_modes.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/migrate_config.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/release_fingerprint.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/validate_ai_audit_bundle.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/validate_audit_coherence.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/verify_package.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/Verify-Package.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tools/write_posix_zip.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/00-Preflight.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/01-Install-Prerequisites.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/02-Provision-ComputeNode.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/03-Provision-Vault.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/04-Connect-Tailscale.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/04a-Connect-WindowsTailscale.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/05-Configure-LocalVaultClient.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/06-Import-Laptop-Bootstrap.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/08-Install-Shortcuts.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/09-Export-Laptop-Bootstrap.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/10-Export-Desktop-Pairing.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Configure-DevFleet-HostControl.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_host_safe_architecture.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_host_agent_integration.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_host_agent_idle_polling.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-next/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/app/layout.tsx",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/app/page.tsx",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/test/smoke.test.js",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/package.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/tsconfig.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/sql-project/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/package.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-next/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/sql-project/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/tsconfig.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_client_generation.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_codexpro_hook.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_configuration.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_csharp_host_agent_response_auth.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_dashboard_v11.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_dependency_advisories.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_destructive_ownership.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_destructive_safety_transaction.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_docker_modes.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_existing_runtime_assignment.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_failover.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening11_red_blue.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening7_boundaries.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_api_serialization.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_container_ownership.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_manifest_version.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_restore_journal.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_secret_recovery.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_systemd_contract.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening8_windows_integrations.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_hardening9_filesystem_identity.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_bootstrap_input_safety.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_auth_multiprocess.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_audit_coherence.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/typescript-node/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/src/index.ts",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/typescript-node/test/index.test.ts",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/_bundle_layout.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/conftest.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_analyzer_v11.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_analyzer.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/tests/test_audit5_destructive.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Update-Vault.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/requirements.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/__init__.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/analyzer.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/auth.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/caches.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/codexpro.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/configuration.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/containers.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/core.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/requirements-hashed.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/failover.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/language_policy.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/leases.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/main.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/node_registry.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/ollama.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/operations.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/profiles.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/projects.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/request_guards.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/host_control.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/VERSION",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/Upgrade-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/START-HERE-LAPTOP.cmd",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/Update-CurrentReleaseAuthority.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/validate_audit_coherence.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/validate_release_bundle.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/proof-entrypoints/Invoke-RealProductPhase.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/proof-entrypoints/Invoke-WpfUiAutomation.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/proof-entrypoints/run-exact-candidate-proof.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/BASELINE-v1.0.0-FILES.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/Bootstrap-Install.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/CHANGELOG.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/CHECKSUMS.sha256",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/dependencies.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/DevFleet-v1.1.0-FILE-CHANGES.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/DevFleet-v1.1.0-MIGRATION.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/DevFleet-v1.1.0-VALIDATION.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/INSTALL-CHECKLIST.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/Install-DevFleet.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/MIGRATION-ROLLBACK.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/pytest.ini",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/README-FIRST.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/SECURITY-NOTES.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/START-HERE-DESKTOP.cmd",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/resource_profiles.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/runtime.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/status.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/version.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/00-HARD-STOPS-AND-ASSUMPTIONS.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/01-ARCHITECTURE.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/02-INSTALL-ORDER.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/03-DAILY-USE.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/04-RECOVERY.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/05-SECURITY-MODEL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/06-CODEXPRO-INTEGRATION.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/07-OFFICIAL-SOURCES.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/08-DEVELOPMENT-PROFILES.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/09-LANGUAGE-SELECTION.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/10-OLLAMA-AND-GPU.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/11-REMOTE-VSCODE.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/12-UPGRADING-FROM-1.0.0.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/13-PERFORMANCE-TUNING.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/host-agent-portability.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/docs/RELEASE-FINGERPRINT-SCHEMA.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/bootstrap-compute.sh",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/bootstrap-vault.sh",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/dependency-advisory-allowlist.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/dependency-policy.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-backup",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/config/resource-policy.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/test_validate_release_bundle.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/config/ollama-profiles.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/config/compose-security-policy.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/devfleet/workspace_archives.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/static/app.js",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/static/style.css",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/systemd/devfleet-backup.service",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/systemd/devfleet-backup.timer",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/systemd/devfleet.service",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/systemd/mutable-paths.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/templates/index.html",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/app/templates/login.html",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/Configure-DockerContext.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/Configure-SSH.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/Configure-VSCode.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/ssh-config.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/vscode-extensions-core.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/vscode-extensions-enterprise.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/vscode-extensions-python.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/vscode-extensions-systems.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/vscode-extensions-web.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/client/vscode-settings.jsonc",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/cloud-init/compute.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/cloud-init/vault.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/config/devfleet.config.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/test_failed_attempt_freeze.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/test_compute_shipping_input_identity.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/run_portable_audit_tests.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-SecurityPoisonPhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-TailscalePhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-WpfPhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-WpfUiAutomation.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Invoke-HarnessTests.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Test-FinalConvergenceContracts.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Test-InstallerSelfTestStandardToken.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Test-InteractiveLogonContracts.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Test-LifecycleObserverBehavior.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Test-ReleaseIntegrityContracts.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/Test-SecurityPoisonHostAgent.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/DependencyPolicyRunner/ArgumentAwareProcessRunner.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/DependencyPolicyRunner/DependencyPolicyRunner.csproj",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/tests/DependencyPolicyRunner/Program.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/BUILD-INSTRUCTIONS.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/Build-Release.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/BUILDING.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/CLEAN-REINSTALL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/CLEAN-ROOM-INSTALL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/CODE-SIGNING.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DEPENDENCY-RESOLUTION.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-RealProductPhase.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/FACTORY-RESET.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-ProductLifecycleScenario.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-MaintenancePhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/Invoke-AutomatedInteractiveLoginSmoke.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/Invoke-DevFleetReleaseE2E.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/Invoke-FocusedMaintenanceSentinels.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/config/devfleet-e2e.defaults.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/Candidate.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/Cleanup.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/Evidence.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/FullRelease.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/GuestSession.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/HarnessBudget.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/HostSafety.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/InteractiveLogon.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/ResumeState.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/Secrets.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/TailscaleE2E.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-AuditPhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-DependencyMatrix.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-HostAgentPhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-HttpHostilePhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-LinuxPhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "automation/release-e2e/modules/executors/Invoke-PrimaryPhase.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-configure-backup",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/Fast-Rebuild-Installer.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER-ARCHITECTURE.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/AssemblyInfo.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/dependencies.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/DevFleet.Setup.csproj",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/InstallerModels.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/MainWindow.xaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/MainWindow.xaml.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/PayloadManifest.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/Services/InstallerLifecycle.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/Services/InstallerServices.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup.Tests/DevFleet.Setup.Tests.csproj",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup.Tests/Program.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/audit_bundle_paths.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/audit-test-manifest.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/Build-AI-CodebaseBundle.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/Build-AIAuditBundle.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/Build-ChatGPT-AuditBundle.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/compute_shipping_input_identity.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/Finalize-CandidateEvidence.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/Invoke-DevFleetFinalConvergence.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/reconcile_osv_scanner.py",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/release-tooling-requirements.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/App.xaml.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER_VERSION",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/App.xaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/Assets/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER-BUILD-MANIFEST.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER-OWNERSHIP-MODEL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER-RECOVERY-MODEL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER-REMOVAL-SAFETY.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/INSTALLER-THREAT-MODEL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/MAINTENANCE.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/MULTIPASS-E2E.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/OFFLINE-DEPENDENCIES.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/OFFLINE-PAYLOAD-SHA256.txt",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/Prepare-ReleaseInputs.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/PrivateSelfSignedSigning.psm1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/RELEASING.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/TAILSCALE-AUTH.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/TAILSCALE-SETUP.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/Test-PrivateSelfSignedSigning.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/Test-ReleaseClosure.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/third-party-license-inventory.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/third-party-signature-verification.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/TROUBLESHOOTING.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/UNINSTALL.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/WINGET-RECOVERY.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "installer-source/DevFleet.Setup/app.manifest",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-docker-mode-report",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-join-deployment",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/generic/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/generic/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/generic/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/generic/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/generic/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/flutter/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/go.mod",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/main_test.go",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/main.go",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/java-spring/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/src/main/java/com/devfleet/Application.java",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/src/test/java/com/devfleet/ApplicationTest.java",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/kotlin-service/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/pom.xml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/go-service/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/go-service/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/java-spring/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-purge-quarantine",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-register-node",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-repair",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-restore-project",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-rotate-compute-secrets",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-rotate-vault-secrets",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-safe-update",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-set-peer",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-switch-docker-mode",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-user-repair",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-vault-health",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-vault-maintenance",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/upgrade-compute.sh",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/cpp-cmake/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/linux/devfleet-health",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/src/App/App.csproj",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/src/App/Program.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/tests/Smoke/Smoke.csproj",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/tests/Smoke/SmokeTest.cs",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/elixir-phoenix/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/health-check.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/smoke-test.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/data-r/.devfleet/template.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/data-r/docs/architecture.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.editorconfig",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.gitignore",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/compose.yaml",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/README.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/chatgpt-memory.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/codexpro-project-instructions.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/current-plan.template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/prompts/broken-session-recovery.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/prompts/handoff-template.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/prompts/reconnect.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.ai-bridge/prompts/session-bootstrap.md",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.devcontainer/devcontainer.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/codexpro-bootstrap.sh",
+    "posixMode": 493,
+    "executable": true
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/codexpro-profile.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/codexpro.env.example",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/templates/dotnet-service/.devfleet/project-tools.json",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "source/windows/Verify-DevFleet-Host.ps1",
+    "posixMode": 420,
+    "executable": false
+  },
+  {
+    "path": "release-tooling/candidate-bound-validator-result.json",
+    "posixMode": 420,
+    "mode": "0644",
+    "executable": false
+  },
+  {
+    "path": "release-tooling/historical/e2e-exact-candidate-proof-1-20260904T184913Z/historical-source-manifest.json",
+    "posixMode": 420,
+    "mode": "0644",
+    "executable": false
+  },
+  {
+    "path": "release-tooling/historical/e2e-exact-candidate-proof-1-20260904T184913Z/Invoke-RealProductPhase.psm1",
+    "posixMode": 420,
+    "mode": "0644",
+    "executable": false
+  },
+  {
+    "path": "release-tooling/historical/e2e-exact-candidate-proof-1-20260904T184913Z/Invoke-WpfUiAutomation.ps1",
+    "posixMode": 420,
+    "mode": "0644",
+    "executable": false
+  },
+  {
+    "path": "release-tooling/historical/e2e-exact-candidate-proof-1-20260904T184913Z/proof-start.json",
+    "posixMode": 420,
+    "mode": "0644",
+    "executable": false
+  },
+  {
+    "path": "release-tooling/historical/e2e-exact-candidate-proof-1-20260904T184913Z/run-exact-candidate-proof.ps1",
+    "posixMode": 420,
+    "mode": "0644",
+    "executable": false
+  }
+]

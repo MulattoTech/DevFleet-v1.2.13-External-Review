@@ -1,0 +1,11 @@
+{
+  "id": "dotnet-service",
+  "language": "csharp",
+  "framework": "aspnet-core",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "dotnet format",
+  "lint_command": "dotnet build --no-restore -warnaserror",
+  "test_command": "dotnet test --no-restore",
+  "health_command": "./.devfleet/health-check.sh"
+}

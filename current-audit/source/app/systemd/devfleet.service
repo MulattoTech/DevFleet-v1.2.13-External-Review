@@ -1,0 +1,24 @@
+[Unit]
+Description=DevFleet remote development control plane
+After=network-online.target tailscaled.service
+Wants=network-online.target
+[Service]
+User=devfleet-control
+Group=devfleet-control
+SupplementaryGroups=devrunner
+WorkingDirectory=/opt/devfleet
+Environment=PYTHONUNBUFFERED=1
+Environment=DOCKER_HOST=unix:///run/user/__DEVRUNNER_UID__/docker.sock
+EnvironmentFile=/etc/devfleet/secrets.env
+# The application enforces loopback plus the configured Tailscale CIDR at the
+# TCP peer boundary.  Do not trust forwarded headers from arbitrary interfaces.
+ExecStart=/opt/devfleet/venv/bin/uvicorn devfleet.main:app --host 0.0.0.0 --port __PORT__
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=__WORKSPACES__ __QUARANTINE__ __TRANSACTION_ROOT__ /var/lib/devfleet /var/cache/devfleet
+[Install]
+WantedBy=multi-user.target

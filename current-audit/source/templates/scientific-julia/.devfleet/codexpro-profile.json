@@ -1,0 +1,17 @@
+{
+  "defaultRoot": "/workspaces/__PROJECT_SLUG__",
+  "allowedRoots": [
+    "/workspaces/__PROJECT_SLUG__"
+  ],
+  "authEnabled": true,
+  "bashMode": "full",
+  "bashTranscript": "full",
+  "writeMode": "workspace",
+  "toolMode": "full",
+  "inheritEnv": false,
+  "contextDir": ".ai-bridge",
+  "maxReadBytes": 180000,
+  "maxWriteBytes": 1000000,
+  "maxOutputBytes": 120000,
+  "maxSearchResults": 200
+}

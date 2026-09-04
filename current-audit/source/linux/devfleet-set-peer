@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+src=${1:?peer json required}
+cleanup(){ if [[ "$src" == /tmp/* ]]; then rm -f -- "$src"; fi; }
+trap cleanup EXIT
+jq -e '.Name and .Url and .Token' "$src" >/dev/null
+url=$(jq -r .Url "$src")
+[[ "$url" =~ ^http://100\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$ ]] || { echo 'Peer URL must use a Tailscale IPv4 address.' >&2; exit 2; }
+install -o root -g devfleet-control -m 0640 "$src" /etc/devfleet/peer.json
+systemctl restart devfleet

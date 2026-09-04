@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "provider": "Windows certificate store / Set-AuthenticodeSignature fallback",
+  "signingProfile": "PrivateSelfSigned",
+  "privateSigningProfile": "PRIVATE_SELF_SIGNED",
+  "timestampState": "NOT TIMESTAMPED — SignTool unavailable; Set-AuthenticodeSignature fallback used",
+  "signatureStatus": "Valid",
+  "platformSignatureStatus": "Valid",
+  "platformSignatureStatusMessage": "Signature verified.",
+  "signerSubject": "CN=DevFleet Private Personal Code Signing",
+  "signerThumbprint": "DE42CD7369A01E9357BDA13597C0173E5E703E9D",
+  "codeSigningEkuVerified": true,
+  "codeSigningEku": "1.3.6.1.5.5.7.3.3",
+  "rsaBits": 3072,
+  "signtoolVerification": "UNAVAILABLE — SignTool not installed",
+  "tamperedCopyVerification": "HashMismatch",
+  "explicitTrustValidation": "PASS",
+  "trustMode": "IN_MEMORY_EXACT_CERTIFICATE",
+  "trustStoreMutated": false,
+  "preSignExe": {
+    "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+    "bytes": 72108761,
+    "sha256": "2be7ebb3a2f10b52b1af857a27832dec0d622925b0fd42fbcdeb7bfa05f214a7",
+    "authenticodeStatus": "NotSigned"
+  },
+  "finalSignedExe": {
+    "name": "exe",
+    "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+    "bytes": 72110632,
+    "sha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e"
+  },
+  "publicCertificate": {
+    "path": "outputs/DevFleet-Private-Personal-Code-Signing.cer",
+    "bytes": 1078,
+    "sha256": "cba81bc01314e633046691496789b30dc247771b21fa4c485aa6c1935ce987cc"
+  },
+  "privateKeyExportable": false,
+  "privateKeyExported": false,
+  "publicPublisherTrust": false,
+  "publicPromotionAllowed": false
+}

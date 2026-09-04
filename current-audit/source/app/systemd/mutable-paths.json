@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "workspace": "/home/devrunner/workspaces",
+  "quarantine": "/home/devrunner/.devfleet-quarantine",
+  "transaction_root": "/home/devrunner/workspaces/.devfleet-transactions"
+}

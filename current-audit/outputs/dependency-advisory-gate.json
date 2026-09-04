@@ -1,0 +1,381 @@
+{
+  "schema_version": 2,
+  "checker": "DevFleet dependency advisory gate",
+  "checker_version": "2.0.0",
+  "status": "PASS",
+  "source": "https://api.osv.dev/v1/query",
+  "checked_at": "2026-09-04T17:13:35.543706+00:00",
+  "lock": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\.release-input-stage\\build\\source\\app\\requirements-hashed.txt",
+  "lock_sha256": "fe238c807b668a2f7e0f2b929e24859260e6a7f76bd6762ac7b6b10ad7daac33",
+  "allowlist": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\.release-input-stage\\build\\source\\linux\\dependency-advisory-allowlist.json",
+  "allowlist_sha256": "81a515050e5d312ac4a453fa1bdaa999cfc11ad6a652659776bf5747c6b69168",
+  "target_environment_policy": "query every exact pin in the compiled lock, including platform-marked pins; deduplicate only identical canonical package/version pairs",
+  "packages": [
+    {
+      "package": "annotated-doc",
+      "version": "0.0.5",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "annotated-doc",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.0.5"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.8.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "annotated-types",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.8.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "anyio",
+      "version": "4.14.2",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "anyio",
+          "ecosystem": "PyPI"
+        },
+        "version": "4.14.2"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.7.22",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "certifi",
+          "ecosystem": "PyPI"
+        },
+        "version": "2026.7.22"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "click",
+      "version": "8.4.2",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "click",
+          "ecosystem": "PyPI"
+        },
+        "version": "8.4.2"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.141.1",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "fastapi",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.141.1"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "h11",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.16.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "httpcore",
+          "ecosystem": "PyPI"
+        },
+        "version": "1.0.9"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "httptools",
+      "version": "0.8.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "httptools",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.8.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "httpx",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.28.1"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "idna",
+      "version": "3.19",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "idna",
+          "ecosystem": "PyPI"
+        },
+        "version": "3.19"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "jinja2",
+          "ecosystem": "PyPI"
+        },
+        "version": "3.1.6"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "markupsafe",
+      "version": "3.0.3",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "markupsafe",
+          "ecosystem": "PyPI"
+        },
+        "version": "3.0.3"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "psutil",
+      "version": "7.0.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "psutil",
+          "ecosystem": "PyPI"
+        },
+        "version": "7.0.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.13.4",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "pydantic",
+          "ecosystem": "PyPI"
+        },
+        "version": "2.13.4"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.46.4",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "pydantic-core",
+          "ecosystem": "PyPI"
+        },
+        "version": "2.46.4"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "python-dotenv",
+      "version": "1.2.3",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "python-dotenv",
+          "ecosystem": "PyPI"
+        },
+        "version": "1.2.3"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "python-multipart",
+      "version": "0.0.32",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "python-multipart",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.0.32"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.2",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "pyyaml",
+          "ecosystem": "PyPI"
+        },
+        "version": "6.0.2"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "starlette",
+      "version": "1.6.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "starlette",
+          "ecosystem": "PyPI"
+        },
+        "version": "1.6.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.16.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "typing-extensions",
+          "ecosystem": "PyPI"
+        },
+        "version": "4.16.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.4",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "typing-inspection",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.4.4"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.52.4",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "uvicorn",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.52.4"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "uvloop",
+      "version": "0.22.1",
+      "marker": "sys_platform != \"win32\"",
+      "query": {
+        "package": {
+          "name": "uvloop",
+          "ecosystem": "PyPI"
+        },
+        "version": "0.22.1"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "watchfiles",
+      "version": "1.2.0",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "watchfiles",
+          "ecosystem": "PyPI"
+        },
+        "version": "1.2.0"
+      },
+      "advisories": [],
+      "status": "PASS"
+    },
+    {
+      "package": "websockets",
+      "version": "17.0.1",
+      "marker": null,
+      "query": {
+        "package": {
+          "name": "websockets",
+          "ecosystem": "PyPI"
+        },
+        "version": "17.0.1"
+      },
+      "advisories": [],
+      "status": "PASS"
+    }
+  ],
+  "blocking_advisories": [],
+  "errors": []
+}

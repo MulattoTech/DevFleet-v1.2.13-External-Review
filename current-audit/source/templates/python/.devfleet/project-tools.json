@@ -1,0 +1,11 @@
+{
+  "id": "python",
+  "language": "python",
+  "framework": "standard-library",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "python -m ruff format .",
+  "lint_command": "python -m ruff check . && python -m mypy src",
+  "test_command": "python -m pytest -q",
+  "health_command": "./.devfleet/health-check.sh"
+}

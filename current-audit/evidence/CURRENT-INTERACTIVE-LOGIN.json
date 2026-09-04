@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-09-03T08:56:31.7468388Z",
+  "RunId": "e2e-native-smoke-canonical-20260903-08",
+  "mechanism": "native-winlogon",
+  "status": "PASS",
+  "vmId": "84b7d8b8-ee6c-4085-aa29-4b0adc316de2",
+  "vmName": "DevFleet-E2E-Win11-01",
+  "guestName": "DEVFLEET-E2E-01",
+  "preBoot": "2026-09-03T08:54:47.692528Z",
+  "postBoot": "2026-09-03T08:55:05.428868Z",
+  "bootChanged": true,
+  "interactiveUser": "DEVFLEET-E2E-01\\E2EAdmin",
+  "SessionId": 1,
+  "ExplorerPID": 3184,
+  "ExplorerSessionId": 1,
+  "driverSessionId": 1,
+  "candidateSessionId": null,
+  "securityEventCount": 27,
+  "securityEventTypeCounts": {
+    "type2": 10,
+    "type3": 0,
+    "type10": 0
+  },
+  "4624Type2Type3Type10": {
+    "type2": 10,
+    "type3": 0,
+    "type10": 0
+  },
+  "4625StatusSubStatus": null,
+  "lastSanitizedTransportErrorCategory": null,
+  "primaryBlocker": null,
+  "credentialExposed": false,
+  "preLogonPolicy": {
+    "caption": {
+      "present": true,
+      "registryValueKind": "String",
+      "utf16CodeUnitCount": 0,
+      "stringLength": 0,
+      "isZeroLength": true,
+      "isOnlyNulCharacters": false,
+      "isOnlyWhitespace": false,
+      "utf16leSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "text": {
+      "present": true,
+      "registryValueKind": "String",
+      "utf16CodeUnitCount": 1,
+      "stringLength": 1,
+      "isZeroLength": false,
+      "isOnlyNulCharacters": true,
+      "isOnlyWhitespace": false,
+      "utf16leSha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7"
+    },
+    "winlogonCaption": {
+      "present": true,
+      "registryValueKind": "String",
+      "utf16CodeUnitCount": 0,
+      "stringLength": 0,
+      "isZeroLength": true,
+      "isOnlyNulCharacters": false,
+      "isOnlyWhitespace": false,
+      "utf16leSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "winlogonText": {
+      "present": true,
+      "registryValueKind": "String",
+      "utf16CodeUnitCount": 0,
+      "stringLength": 0,
+      "isZeroLength": true,
+      "isOnlyNulCharacters": false,
+      "isOnlyWhitespace": false,
+      "utf16leSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source": "unknown",
+    "sourceEvidence": {
+      "localPolicyRegistryPath": true,
+      "winlogonRegistryPath": true,
+      "domainPolicyRegistryPath": false,
+      "policyManagerPath": false
+    }
+  },
+  "preLogonPolicySuppressed": true,
+  "preLogonPolicyReasserted": false,
+  "preLogonPolicyRestored": true,
+  "transientDefaultPasswordCleared": true,
+  "lsaDefaultPasswordCleared": true,
+  "autologonStateRestored": true,
+  "finalL1": "Off",
+  "finalL2": "ABSENT"
+}

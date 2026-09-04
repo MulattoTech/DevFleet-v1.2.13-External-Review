@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "installerRevision": "1.4.1",
+  "devfleetVersion": "1.2.13",
+  "releaseBinding": "This manifest is part of the exact DevFleet release payload; the trusted internal release channel supplies the final release fingerprint.",
+  "payloads": [],
+  "bundledThirdPartyInstallers": [],
+  "applicationNuGetDependencies": [],
+  "buildSdk": {
+    "product": ".NET SDK",
+    "version": "8.0.424",
+    "officialSource": "https://dotnet.microsoft.com/download/dotnet/8.0",
+    "usedForBuildOnly": true
+  },
+  "offlineContract": "Offline installation accepts only an exact payload entry in this release-bound manifest. A sibling checksum file, duplicate, near-name candidate, or unsigned local replacement is never an authority. No offline dependency payloads are included in this private release."
+}

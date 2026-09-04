@@ -1,0 +1,17 @@
+{
+  "id": "ruby-rails",
+  "language": "ruby",
+  "framework": "rails",
+  "maturity": "preview",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "true",
+  "lint_command": "true",
+  "test_command": "./.devfleet/smoke-test.sh",
+  "health_command": "./.devfleet/health-check.sh",
+  "start_command": "docker compose up -d --build",
+  "stop_command": "docker compose down --remove-orphans",
+  "restart_command": "docker compose restart",
+  "rebuild_command": "docker compose build && docker compose up -d",
+  "logs_command": "docker compose logs",
+  "codexpro_command": "./.devfleet/codexpro-bootstrap.sh"
+}

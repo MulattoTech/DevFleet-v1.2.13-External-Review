@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-21",
+  "scope": "Explicitly authorized memory-only right-sizing of the two named production Multipass VMs",
+  "host": {
+    "usablePhysicalGiB": 63.11,
+    "postResizeAvailableGiB": 29.25,
+    "postResizeCommitGiB": 44.73,
+    "postResizeCommitLimitGiB": 84.11,
+    "postResizeCommitPercent": 53.18,
+    "resourceExhaustionEventsLast10Minutes": 0,
+    "preJobFinderHostSample": "Not captured before the first resize; pre-Primary sample was 26.08 GiB available."
+  },
+  "instances": {
+    "devfleet-project-m-techlabs-job-finder": {
+      "memoryBeforeGiB": 8,
+      "memoryAfterGiB": 4,
+      "rollbackMemoryGiB": 8,
+      "cpuUnchanged": 4,
+      "hyperVId": "ba3efdbe-16c1-467b-83d0-e5f4a546d176",
+      "snapshot": "devfleet-project-m-techlabs-job-finder.h10-before-memory-resize",
+      "guestAfter": {
+        "memTotalGiB": 3.8,
+        "minimumObservedMemAvailableGiB": 3.28,
+        "usedGiBRange": "0.46-0.49",
+        "swapGiB": 0,
+        "oom": false,
+        "boot": "PASS",
+        "ssh": "PASS",
+        "docker": "PASS",
+        "dns": "PASS",
+        "applicationService": "No project-local systemd service; Docker daemon active",
+        "primaryNetworkPath": "Unavailable from current host path; not a local guest health failure"
+      }
+    },
+    "devfleet-primary": {
+      "memoryBeforeGiB": 12,
+      "memoryAfterGiB": 8,
+      "rollbackMemoryGiB": 12,
+      "cpuUnchanged": 12,
+      "hyperVId": "d459e6a3-e924-4039-89b2-c15ee861ef5b",
+      "snapshot": "devfleet-primary.h10-before-memory-resize",
+      "guestAfter": {
+        "memTotalGiB": 7.8,
+        "memAvailableGiB": 7.2,
+        "swapGiB": 0,
+        "oom": false,
+        "devfleetService": "ACTIVE",
+        "docker": "ACTIVE",
+        "tailscale": "ACTIVE",
+        "healthz": "HTTP 200 on guest loopback",
+        "authenticatedApiStatus": "HTTP 200 on guest loopback",
+        "hostNetworkPath": "Unavailable from current host path; guest-local service remained healthy"
+      }
+    }
+  },
+  "hostRamReclaimedGiB": 8,
+  "productionMutations": "Controlled Multipass stop, supported memory setting, restart, health validation, and snapshots only; no CPU or disk changes.",
+  "mulattoTechSurfaceTouched": false,
+  "historical": true
+}

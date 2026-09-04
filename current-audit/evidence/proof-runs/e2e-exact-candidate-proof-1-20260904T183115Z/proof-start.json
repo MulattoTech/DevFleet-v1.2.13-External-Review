@@ -1,0 +1,226 @@
+{
+  "status": "PASS",
+  "generatedAtUtc": "2026-09-04T18:31:26.7829489Z",
+  "runId": "e2e-exact-candidate-proof-1-20260904T183115Z",
+  "vmName": "DevFleet-E2E-Win11-01",
+  "vmId": "84b7d8b8-ee6c-4085-aa29-4b0adc316de2",
+  "hostSafety": {
+    "host": "MULATTOTECHBOX",
+    "availableMemoryGiB": 36.78,
+    "availableBytes": 39490068480,
+    "totalMemoryGiB": 63.11,
+    "commitLimitGiB": 80.11,
+    "committedGiB": 45.35,
+    "currentCommitUsagePercent": 56.61,
+    "physicalFloorGiB": 8.0,
+    "commitHeadroomFloorGiB": 16.02,
+    "minimumPreferredGiB": 8.0,
+    "expectedVmStartCostGiB": 14.38,
+    "projectedPostStartAvailableMemoryGiB": 22.4,
+    "minimumPostStartMemoryGiB": 8.0,
+    "vm": {
+      "name": "DevFleet-E2E-Win11-01",
+      "id": "84b7d8b8-ee6c-4085-aa29-4b0adc316de2",
+      "state": "Off",
+      "memoryStartupBytes": 17179869184,
+      "dynamicMemory": false,
+      "nestedVirtualization": true,
+      "macAddressSpoofing": "On"
+    },
+    "productionReadOnly": [
+      {
+        "name": "devfleet-primary",
+        "id": "d459e6a3-e924-4039-89b2-c15ee861ef5b",
+        "state": "Off",
+        "memoryStartupBytes": 8589934592
+      },
+      {
+        "name": "devfleet-project-m-techlabs-job-finder",
+        "id": "ba3efdbe-16c1-467b-83d0-e5f4a546d176",
+        "state": "Off",
+        "memoryStartupBytes": 4294967296
+      }
+    ],
+    "resourceExhaustion": false,
+    "paging": {
+      "pagesPerSec": 0.0,
+      "pageReadsPerSec": 0.0,
+      "blockingGate": false
+    },
+    "startSafe": true,
+    "rawHostSafetyStartSafe": true,
+    "ramPressureOverrideAuthorized": false,
+    "ramPressureOverrideScope": "THIS OVERNIGHT DISPOSABLE E2E RUN ONLY",
+    "nonRamSafetyPassed": true,
+    "effectiveE2EStartAuthorized": true,
+    "effectiveStartSafe": true
+  },
+  "candidate": {
+    "releaseVersion": "1.2.13",
+    "installerVersion": "1.4.1",
+    "gitCommit": "f2617e2277b4fb717058feec2ca93e30761f774b",
+    "repositoryHead": "00e4bff424256e46a1f0e1344e2acfed2f5f3526",
+    "shippingInputIdentity": "194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a",
+    "releaseFingerprintId": "6cd57a5c5a21b1f6ef142d695674eefaf4ab4d442b2a513c829b53989f3e3c9f",
+    "toolingFingerprintId": "474495c594a3b2043ad9575e10c53559118867df2fa3cfb4321ccbc9cab311a4",
+    "candidate": {
+      "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-Setup-v1.2.13-win-x64.exe",
+      "bytes": 72110632,
+      "sha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e"
+    },
+    "tar": {
+      "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\devfleet-v1.2.13.tar.gz",
+      "bytes": 414517,
+      "sha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d"
+    },
+    "portable": {
+      "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-v1.2.13-Portable-Codebase-Verified-r1.zip",
+      "bytes": 2671027,
+      "sha256": "d3edc43d1177a5bf7640b0f036bdb1b0a4729661d6b53231ddddbd164c203ff5"
+    },
+    "installerSource": {
+      "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-v1.2.13-Installer-Source.zip",
+      "bytes": 749198,
+      "sha256": "242d339ccd378d470021361c6b1cd473657326c89bf296561efdbd51789b21ee"
+    },
+    "signingState": "PRIVATE SELF-SIGNED AUTHENTICODE — VALID ON EXPLICITLY TRUSTED PERSONAL/TEST SYSTEMS",
+    "privateSigningProfile": "PRIVATE_SELF_SIGNED",
+    "privateSigningCertificateThumbprint": "DE42CD7369A01E9357BDA13597C0173E5E703E9D",
+    "publicPublisherTrust": false,
+    "publicPromotionAllowed": false,
+    "publicCertificate": {
+      "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-Private-Personal-Code-Signing.cer",
+      "bytes": 1078,
+      "sha256": "cba81bc01314e633046691496789b30dc247771b21fa4c485aa6c1935ce987cc"
+    },
+    "authenticode": {
+      "status": "PASS",
+      "effectiveSignatureStatus": "Valid",
+      "platformSignatureStatus": "Valid",
+      "platformSignatureStatusMessage": "Signature verified.",
+      "signerThumbprint": "DE42CD7369A01E9357BDA13597C0173E5E703E9D",
+      "exactCertificateMatch": true,
+      "codeSigningEkuVerified": true,
+      "explicitTrustValidation": "PASS",
+      "trustMode": "IN_MEMORY_EXACT_CERTIFICATE",
+      "chainStatuses": [],
+      "tamperedCopyStatus": "HashMismatch",
+      "trustStoreMutated": false,
+      "publicPublisherTrust": false
+    }
+  },
+  "provenance": {
+    "repositoryHead": "00e4bff424256e46a1f0e1344e2acfed2f5f3526",
+    "candidateCommit": "f2617e2277b4fb717058feec2ca93e30761f774b",
+    "shippingInputIdentity": "194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a",
+    "releaseFingerprint": "6cd57a5c5a21b1f6ef142d695674eefaf4ab4d442b2a513c829b53989f3e3c9f",
+    "toolingFingerprint": "474495c594a3b2043ad9575e10c53559118867df2fa3cfb4321ccbc9cab311a4",
+    "invokeRealProductPhaseSha256": "c1e2c357f7fc2689e56168e2b167c84a73ec8764abd958bb6a7d8766b340451c",
+    "invokeWpfUiAutomationSha256": "956ed272d1cb3d6bb3fd2a9f12bcbcc830c01911bd18002ad4e762e70f7fea0e",
+    "proofScriptSha256": "49af2556a09e6135fbe182358aff6e25211f68e6896958a952307cce05565cff",
+    "certificationEligible": true,
+    "diagnosticOnly": false,
+    "invocation": {
+      "runId": "e2e-exact-candidate-proof-1-20260904T183115Z",
+      "switches": [
+        "-RunId",
+        "e2e-exact-candidate-proof-1-20260904T183115Z",
+        "-WorkspaceRoot",
+        "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development"
+      ],
+      "fastMode": false,
+      "ramPressureOverrideAuthorized": false,
+      "diagnosticOnly": false
+    },
+    "exactArtifacts": {
+      "exe": {
+        "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-Setup-v1.2.13-win-x64.exe",
+        "bytes": 72110632,
+        "sha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e"
+      },
+      "tar": {
+        "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\devfleet-v1.2.13.tar.gz",
+        "bytes": 414517,
+        "sha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d"
+      },
+      "portable": {
+        "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-v1.2.13-Portable-Codebase-Verified-r1.zip",
+        "bytes": 2671027,
+        "sha256": "d3edc43d1177a5bf7640b0f036bdb1b0a4729661d6b53231ddddbd164c203ff5"
+      },
+      "installerSource": {
+        "path": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-v1.2.13-Installer-Source.zip",
+        "bytes": 749198,
+        "sha256": "242d339ccd378d470021361c6b1cd473657326c89bf296561efdbd51789b21ee"
+      }
+    },
+    "deadlinePolicy": {
+      "version": "1.0.0",
+      "operationMaximumsSeconds": {
+        "bootstrap": 240,
+        "preflight": 120,
+        "dependencyProbe": 60,
+        "dependencyHealth": 180,
+        "dependencyInstall": 1800,
+        "dependencyVerification": 60,
+        "windowsCapability": 900,
+        "windowsFeature": 900,
+        "multipassConfiguration": 600,
+        "vscodeExtension": 300,
+        "prerequisites": 17700,
+        "windowsTailscale": 180,
+        "hostAgent": 300,
+        "multipassLaunch": 900,
+        "multipassReadiness": 1200,
+        "payloadTransfer": 900,
+        "guestBootstrap": 6300,
+        "sshAndMarker": 300,
+        "vaultSnapshot": 300,
+        "tailscale": 900,
+        "vaultClient": 300,
+        "shortcuts": 180,
+        "export": 300,
+        "verification": 300
+      },
+      "guestBootstrapComponentsSeconds": {
+        "packagePrerequisites": 900,
+        "dockerRepositoryAndInstall": 1200,
+        "tailscaleRepositoryAndInstall": 1200,
+        "rootlessRuntime": 600,
+        "nodeToolchain": 600,
+        "pythonRuntime": 1200,
+        "serviceAndFirewallFinalization": 600
+      },
+      "stageBudgetsSeconds": {
+        "compute": 9600,
+        "vault": 9900
+      },
+      "transactionBudgetsSeconds": {
+        "Desktop": 30420,
+        "Laptop": 41520
+      },
+      "transactionTerminalizationMarginSeconds": 600,
+      "observerTerminalizationMarginSeconds": 600,
+      "fullReleaseTerminalizationMarginSeconds": 600,
+      "exactProofTerminalizationMarginSeconds": 600,
+      "observerNoProgressBudgetSeconds": 1800,
+      "observerAbsoluteBudgetSeconds": 31020,
+      "productTransactionAbsoluteBudgetSeconds": 30420,
+      "productLifecycleInnerBoundSeconds": 130680,
+      "fullReleaseInnerBoundSeconds": 130680,
+      "fullReleaseWatchdogSeconds": 131280,
+      "exactProofInnerBoundSeconds": 130980,
+      "exactProofOuterWatchdogSeconds": 131580,
+      "maximumExactProofOuterWatchdogSeconds": 150000,
+      "maxRebootBoundaries": 3,
+      "inequalities": {
+        "stageDominatesOperations": true,
+        "observerDominatesTransaction": true,
+        "fullReleaseDominatesObserver": true,
+        "exactProofDominatesInner": true
+      }
+    }
+  },
+  "credentialLoaded": true,
+  "passwordLogged": false
+}

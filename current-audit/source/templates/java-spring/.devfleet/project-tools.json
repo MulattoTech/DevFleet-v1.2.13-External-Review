@@ -1,0 +1,11 @@
+{
+  "id": "java-spring",
+  "language": "java",
+  "framework": "spring-boot",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "mvn -B -ntp spotless:apply",
+  "lint_command": "mvn -B -ntp -DskipTests verify",
+  "test_command": "mvn -B -ntp test",
+  "health_command": "./.devfleet/health-check.sh"
+}

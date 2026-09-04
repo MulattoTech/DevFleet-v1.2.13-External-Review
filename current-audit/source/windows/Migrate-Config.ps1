@@ -1,0 +1,11 @@
+[CmdletBinding(SupportsShouldProcess)]
+param([string]$ConfigPath=(Join-Path $env:ProgramData 'DevFleet\devfleet.config.json'),[string]$OutputPath=$ConfigPath,[switch]$PreviewOnly)
+$ErrorActionPreference='Stop';$package=Split-Path -Parent $PSScriptRoot;$defaults=Get-Content (Join-Path $package 'config\devfleet.config.json') -Raw|ConvertFrom-Json -AsHashtable;$existing=Get-Content $ConfigPath -Raw|ConvertFrom-Json -AsHashtable
+if([int]$existing.SchemaVersion -gt 2){throw "Configuration schema $($existing.SchemaVersion) is newer than supported."}
+function Merge-Map([System.Collections.IDictionary]$Base,[System.Collections.IDictionary]$Overlay){$r=[ordered]@{};foreach($k in $Base.Keys){$v=$Base[$k];$r[$k]=if($v -is [System.Collections.IDictionary]){Merge-Map $v @{}}else{$v}};foreach($k in $Overlay.Keys){$v=$Overlay[$k];if($v -is [System.Collections.IDictionary] -and $r.Contains($k) -and $r[$k] -is [System.Collections.IDictionary]){$r[$k]=Merge-Map $r[$k] $v}else{$r[$k]=$v}};return $r}
+$m=Merge-Map $defaults $existing
+if([int]$existing.SchemaVersion -eq 1){$m.Development.Profile='strict';$m.Docker.PrimaryMode='rootless';$m.Docker.FailoverMode='rootless'}
+$m.SchemaVersion=2;$m.PackageVersion='1.1.0';$m.Primary.InstanceName=[string]$existing.Primary.InstanceName;$m.Failover.InstanceName=[string]$existing.Failover.InstanceName;$m.Vault.InstanceName=[string]$existing.Vault.InstanceName
+$preview=[ordered]@{Source=$ConfigPath;Output=$OutputPath;PreviousSchema=[int]$existing.SchemaVersion;NewSchema=2;PreservedInstanceNames=@($m.Primary.InstanceName,$m.Failover.InstanceName,$m.Vault.InstanceName);DevelopmentProfile=$m.Development.Profile;PrimaryDockerMode=$m.Docker.PrimaryMode;FailoverDockerMode=$m.Docker.FailoverMode;MigrationSafety='Existing values, instance names, Docker stores, credentials and data are preserved';Generated=(Get-Date).ToString('o')}
+$previewPath=Join-Path (Split-Path $OutputPath) "devfleet-v1.1.0-migration-preview-$((Get-Date).ToString('yyyyMMdd-HHmmss')).json";$preview|ConvertTo-Json -Depth 20|Set-Content $previewPath -Encoding utf8;Write-Host ($preview|ConvertTo-Json -Depth 20)
+if($PreviewOnly){return};if($PSCmdlet.ShouldProcess($OutputPath,'Write schema-2 configuration')){$m|ConvertTo-Json -Depth 40|Set-Content $OutputPath -Encoding utf8}

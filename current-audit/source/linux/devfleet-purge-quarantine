@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+days=${1:-30}
+[[ "$days" =~ ^[0-9]+$ ]] || exit 2
+base=/home/devrunner/.devfleet-quarantine
+[[ -d "$base" && "$(realpath "$base")" == '/home/devrunner/.devfleet-quarantine' ]] || exit 3
+find "$base" -mindepth 1 -maxdepth 1 -type d -mtime "+$days" -print0 | while IFS= read -r -d '' item; do
+  [[ "$(realpath "$item")" == "$base"/* ]] || exit 4
+  rm -rf --one-file-system -- "$item"
+done

@@ -1,0 +1,12 @@
+DevFleet intentionally does NOT:
+- expose Docker over TCP;
+- mount Windows folders, drives, SMB shares, or Google Drive into guests;
+- mount Docker sockets into project containers;
+- execute CodexPro hooks on the VM host;
+- offer permanent deletion in the web dashboard;
+- run docker system prune, docker volume prune, or compose down -v;
+- run automatic restic forget/prune from compute nodes;
+- automatically fail over when a peer is unreachable;
+- give the dashboard VM/vault/Windows administration authority;
+- store encrypted-bundle passphrases;
+- bypass Tailscale or GitHub interactive authorization.

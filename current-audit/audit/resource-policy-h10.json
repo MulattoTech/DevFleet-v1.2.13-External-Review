@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "1.0.0",
+  "sourceOfTruth": "source/config/resource-policy.json",
+  "formula": {
+    "physicalFloorGiB": "max(8 GiB, 10% of installed usable physical RAM)",
+    "commitHeadroomFloorGiB": "max(16 GiB, 20% of commit limit)",
+    "commitUsageLimitPercent": 80
+  },
+  "preStartRequirements": [
+    "projected available physical memory is at least the adaptive physical floor",
+    "projected commit headroom is at least the adaptive commit floor",
+    "current commit usage is below 80%",
+    "no current Windows resource-exhaustion condition",
+    "exact disposable VM identity/configuration is verified"
+  ],
+  "postStartRequirements": [
+    "sample host for 60-120 seconds after allocation settles",
+    "available memory remains above the adaptive floor",
+    "commit remains below 80% with adequate headroom",
+    "no resource-exhaustion condition",
+    "production VMs remain healthy",
+    "failed safety verification stops the disposable E2E VM"
+  ],
+  "pagingCounters": "Telemetry only; blocking requires corroborating low-memory, commit, exhaustion-event, or sustained hard-fault symptoms.",
+  "e2eL1GiB": 16,
+  "hostMatrixGiB": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "actualWindowsE2EPostStartSample": "Not run in this pass; no exact current-candidate real FullRelease was completed.",
+  "historical": true
+}

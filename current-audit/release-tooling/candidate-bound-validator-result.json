@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_WITH_BLOCKER",
+  "releaseEligible": false,
+  "bundleMode": "diagnostic",
+  "exitCode": 0,
+  "repositoryHead": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+  "candidateCommit": "f2617e2277b4fb717058feec2ca93e30761f774b",
+  "output": "{\"blockerCode\": \"DIAGNOSTIC_PROOF_PENDING\", \"bundleMode\": \"diagnostic\", \"candidateIsCurrent\": true, \"candidateShippingInputIdentity\": \"194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a\", \"provenanceCommit\": \"f2617e2277b4fb717058feec2ca93e30761f774b\", \"rebuildRequired\": false, \"releaseEligible\": false, \"sourceChangedSinceCandidate\": false, \"status\": \"PASS_WITH_BLOCKER\"}",
+  "candidateValidatorIsShippingSource": true
+}

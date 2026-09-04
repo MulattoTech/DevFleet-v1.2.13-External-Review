@@ -1,0 +1,32 @@
+{
+  "stable-interactive": {
+    "Description": "Low-latency coding and one or two concurrent requests.",
+    "Environment": {
+      "OLLAMA_CONTEXT_LENGTH": "32768",
+      "OLLAMA_NUM_PARALLEL": "2",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "OLLAMA_MAX_QUEUE": "64",
+      "OLLAMA_KEEP_ALIVE": "15m"
+    }
+  },
+  "large-context": {
+    "Description": "One primary repository-analysis task with reduced concurrency.",
+    "Environment": {
+      "OLLAMA_CONTEXT_LENGTH": "65536",
+      "OLLAMA_NUM_PARALLEL": "1",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "OLLAMA_MAX_QUEUE": "32",
+      "OLLAMA_KEEP_ALIVE": "30m"
+    }
+  },
+  "parallel-agents": {
+    "Description": "Several concurrent CodexPro requests using smaller per-request contexts.",
+    "Environment": {
+      "OLLAMA_CONTEXT_LENGTH": "16384",
+      "OLLAMA_NUM_PARALLEL": "4",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "OLLAMA_MAX_QUEUE": "128",
+      "OLLAMA_KEEP_ALIVE": "15m"
+    }
+  }
+}

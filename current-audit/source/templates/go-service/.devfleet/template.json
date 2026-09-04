@@ -1,0 +1,17 @@
+{
+  "id": "go-service",
+  "language": "go",
+  "framework": "net-http",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "gofmt -w .",
+  "lint_command": "go vet ./...",
+  "test_command": "go test ./...",
+  "health_command": "./.devfleet/health-check.sh",
+  "start_command": "docker compose up -d --build",
+  "stop_command": "docker compose down --remove-orphans",
+  "restart_command": "docker compose restart",
+  "rebuild_command": "docker compose build && docker compose up -d",
+  "logs_command": "docker compose logs",
+  "codexpro_command": "./.devfleet/codexpro-bootstrap.sh"
+}

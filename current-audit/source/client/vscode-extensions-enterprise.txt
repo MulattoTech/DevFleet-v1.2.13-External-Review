@@ -1,0 +1,2 @@
+ms-dotnettools.csdevkit
+vscjava.vscode-java-pack

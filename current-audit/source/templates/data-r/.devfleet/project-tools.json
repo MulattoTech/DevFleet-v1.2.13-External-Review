@@ -1,0 +1,11 @@
+{
+  "id": "data-r",
+  "language": "r",
+  "framework": "base-r",
+  "maturity": "preview",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "true",
+  "lint_command": "true",
+  "test_command": "./.devfleet/smoke-test.sh",
+  "health_command": "./.devfleet/health-check.sh"
+}

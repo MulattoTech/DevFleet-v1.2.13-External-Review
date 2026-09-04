@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+uid=$(id -u devrunner);echo "Selected mode: $(jq -r '.docker_mode // "rootless"' /etc/devfleet/config.json)";echo 'Rootless store:';sudo -u devrunner env DOCKER_HOST="unix:///run/user/$uid/docker.sock" docker info --format 'root={{.DockerRootDir}} containers={{.Containers}} images={{.Images}}' 2>/dev/null || echo unavailable;echo 'Rootful store:';docker info --format 'root={{.DockerRootDir}} containers={{.Containers}} images={{.Images}}' 2>/dev/null || echo unavailable;echo 'Stores are separate. DevFleet never silently copies or deletes them.'

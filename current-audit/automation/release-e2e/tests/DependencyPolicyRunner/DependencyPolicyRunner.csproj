@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- The referenced installer is a self-contained WinExe. Keep this
+         executable in the same RID graph so NETSDK1151 cannot silently
+         discard the real project reference. -->
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../../installer-source/DevFleet.Setup/DevFleet.Setup.csproj"
+                      GlobalPropertiesToRemove="SelfContained;RuntimeIdentifier;PublishSingleFile"
+                      AdditionalProperties="SelfContained=false;RuntimeIdentifier=;PublishSingleFile=false" />
+  </ItemGroup>
+</Project>

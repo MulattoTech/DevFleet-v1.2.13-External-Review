@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+[[ ${EUID:-$(id -u)} -eq 0 ]] || { echo 'Run as root.' >&2; exit 2; }
+target=${1:-};ack=${2:-};[[ $target =~ ^(rootless|rootful)$ ]] || { echo 'Usage: devfleet-switch-docker-mode rootless|rootful [--acknowledge-rootful]' >&2; exit 2; };[[ $target != rootful || $ack == --acknowledge-rootful ]] || { echo 'Enabling rootful Docker requires --acknowledge-rootful.' >&2; exit 2; }
+cfg=/etc/devfleet/config.json;current=$(jq -r '.docker_mode // "rootless"' "$cfg");[[ $current != "$target" ]] || { echo "Already $target";exit 0; };uid=$(id -u devrunner)
+if [[ $current == rootless ]];then running=$(sudo -u devrunner env DOCKER_HOST="unix:///run/user/$uid/docker.sock" docker ps -q 2>/dev/null|wc -l);else running=$(docker ps -q 2>/dev/null|wc -l);fi
+((running==0)) || { echo 'Stop all projects before switching Docker stores.' >&2;exit 3; };stamp=$(date -u +%Y%m%dT%H%M%SZ);report="/var/lib/devfleet/migrations/docker-mode-$stamp.txt";/usr/local/bin/devfleet-docker-mode-report >"$report"
+if [[ $target == rootless ]];then systemctl disable --now docker.service docker.socket containerd.service 2>/dev/null||true;sudo -u devrunner env HOME=/home/devrunner XDG_RUNTIME_DIR="/run/user/$uid" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" systemctl --user enable --now docker;else sudo -u devrunner env HOME=/home/devrunner XDG_RUNTIME_DIR="/run/user/$uid" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" systemctl --user disable --now docker 2>/dev/null||true;systemctl enable --now containerd.service docker.socket docker.service;fi
+tmp=$(mktemp);jq --arg mode "$target" '.docker_mode=$mode' "$cfg">"$tmp";install -m 0640 -o root -g devrunner "$tmp" "$cfg";rm -f "$tmp";systemctl restart devfleet.service;echo "Docker mode switched to $target. Stores were not migrated or deleted. Report: $report"

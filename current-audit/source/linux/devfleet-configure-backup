@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+src=${1:?vault json required}
+cleanup(){ if [[ "$src" == /tmp/* ]]; then rm -f -- "$src"; fi; }
+trap cleanup EXIT
+jq -e '.Repository and .RestUser and .RestPassword and .ResticPassword' "$src" >/dev/null
+repo=$(jq -r .Repository "$src")
+pairing_mode=$(jq -r '.PairingMode // "tailscale"' "$src")
+[[ "$pairing_mode" == 'tailscale' ]] || { echo 'Authenticated Vault transport requires Tailscale; plaintext deferred-local transport is disabled.' >&2; exit 2; }
+[[ "$repo" =~ ^rest:http://100\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+/ ]] || { echo 'Repository must use a Tailscale IPv4 address.' >&2; exit 2; }
+cat >/etc/devfleet/restic.env <<EOF
+RESTIC_REPOSITORY=$repo
+RESTIC_REST_USERNAME=$(jq -r .RestUser "$src")
+RESTIC_REST_PASSWORD=$(jq -r .RestPassword "$src")
+RESTIC_PASSWORD=$(jq -r .ResticPassword "$src")
+EOF
+chown root:devfleet-backup /etc/devfleet/restic.env
+chmod 0640 /etc/devfleet/restic.env
+install -d -o devfleet-control -g devfleet-control -m 0750 /var/lib/devfleet/backup-status
+jq -n --arg repository "$repo" '{repository:$repository}' >/var/lib/devfleet/backup-status/config.json
+chown devfleet-control:devfleet-control /var/lib/devfleet/backup-status/config.json
+chmod 0640 /var/lib/devfleet/backup-status/config.json
+sudo -u devfleet-backup bash -lc 'set -a; source /etc/devfleet/restic.env; set +a; restic snapshots >/dev/null 2>&1 || restic init'
+systemctl restart devfleet-backup.timer
+sudo -u devfleet-backup /usr/local/bin/devfleet-backup

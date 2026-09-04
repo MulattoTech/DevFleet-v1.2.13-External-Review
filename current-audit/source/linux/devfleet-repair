@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+# Non-destructive repair only. No prune, project removal, volume deletion, or VM operations.
+mode=$(jq -r '.docker_mode // "rootless"' /etc/devfleet/config.json)
+if [[ $mode == rootless ]]; then
+  uid=$(id -u devrunner)
+  systemctl restart "user@$uid.service" || true
+  sudo -u devrunner XDG_RUNTIME_DIR="/run/user/$uid" DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" systemctl --user restart docker
+else
+  # rootful Docker inside the disposable VM
+  systemctl restart containerd docker
+fi
+if [[ "${1:-}" != "--skip-portal" ]]; then systemctl restart devfleet; fi
+systemctl restart devfleet-backup.timer
+systemctl restart tailscaled
+journalctl --vacuum-time=30d >/dev/null 2>&1 || true
+sudo -u devrunner /usr/local/bin/devfleet-health

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -u
+printf 'Vault: '; hostname
+printf 'Tailscale: '; tailscale status --json 2>/dev/null | jq -r '.BackendState // "not-connected"' || true
+printf 'rest-server: '; systemctl is-active rest-server
+printf 'Disk: '; df -h /srv/restic | tail -n1
+printf 'Repository bytes: '; du -sh /srv/restic 2>/dev/null | cut -f1

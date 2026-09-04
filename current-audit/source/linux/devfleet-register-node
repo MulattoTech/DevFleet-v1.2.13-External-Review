@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+src=${1:?surrogate node metadata required}
+jq -e '.deployment_id and .node_id and .node_role == "surrogate" and .coordinator_node_id' "$src" >/dev/null
+install -d -o devfleet-control -g devfleet-control -m 0750 /var/lib/devfleet/runtime
+registry=/var/lib/devfleet/runtime/node-registry.json
+deployment=$(jq -r .deployment_id "$src")
+node=$(jq -r .node_id "$src")
+coordinator=$(jq -r .coordinator_node_id "$src")
+if [[ -f "$registry" ]]; then
+  jq -e --arg deployment "$deployment" '.deployment_id == $deployment' "$registry" >/dev/null || { echo 'Deployment identity mismatch; refusing a second deployment.' >&2; exit 3; }
+else
+  printf '{"schema_version":1,"deployment_id":"%s","nodes":[]}' "$deployment" >"$registry"
+fi
+tmp=$(mktemp)
+jq --arg deployment "$deployment" --arg node "$node" --arg coordinator "$coordinator" --arg name "$(jq -r .node_name "$src")" '.nodes = ([.nodes[] | select(.node_id != $node)] + [{deployment_id:$deployment,node_id:$node,node_name:$name,node_role:"surrogate",coordinator_node_id:$coordinator,protocol_version:1,registration_state:"registered",connectivity:"online"}])' "$registry" >"$tmp"
+install -o devfleet-control -g devfleet-control -m 0640 "$tmp" "$registry"
+rm -f "$tmp"

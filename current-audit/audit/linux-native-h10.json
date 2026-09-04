@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "environment": "Ubuntu 24.04.4 disposable Multipass VM",
+  "focusedRestoreRace": "10 complete repetitions x 40 passed tests, no skips",
+  "pythonSuite": "339 passed, 1 skipped, excluding two PowerShell-only migration tests",
+  "environmentSkip": "pwsh unavailable in the native Ubuntu VM; the two skipped migration tests are explicitly environment-only.",
+  "standardUnzip": {
+    "result": "PASS",
+    "zipEntriesCreateSystem": 3,
+    "modeFiles": 752,
+    "executableByContract": 78,
+    "ordinaryFiles": 674,
+    "sourceHashesUnchanged": true
+  },
+  "coverage": {
+    "linuxOnlyWorkspaceArchivesStatementPercent": 57,
+    "linuxOnlyWorkspaceArchivesBranchPercent": 46,
+    "combinedWindowsLinuxStatementPercent": 86.02,
+    "combinedWindowsLinuxBranchPercent": 72.15,
+    "note": "Combined union meets the 85% statement target; remaining branch gaps are platform-specific/defensive and focused security transitions are exercised."
+  },
+  "historical": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "go-service",
+  "language": "go",
+  "framework": "net-http",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "gofmt -w .",
+  "lint_command": "go vet ./...",
+  "test_command": "go test ./...",
+  "health_command": "./.devfleet/health-check.sh"
+}

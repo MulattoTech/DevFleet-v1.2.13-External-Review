@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>DevFleet.Setup</AssemblyName>
+    <RootNamespace>DevFleet.Setup</RootNamespace>
+    <Product>DevFleet Setup</Product>
+    <Company>M-TechLabs</Company>
+    <Version>1.4.1</Version>
+    <FileVersion>1.4.1.0</FileVersion>
+    <InformationalVersion>DevFleet Setup 1.4.1 for DevFleet 1.2.13</InformationalVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Payload\devfleet-v1.2.13.tar.gz" />
+    <EmbeddedResource Include="dependencies.json" LogicalName="DevFleet.Setup.dependencies.json" />
+  </ItemGroup>
+
+</Project>

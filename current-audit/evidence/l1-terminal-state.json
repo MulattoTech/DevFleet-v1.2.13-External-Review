@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "name": "DevFleet-E2E-Win11-01",
+  "id": "84b7d8b8-ee6c-4085-aa29-4b0adc316de2",
+  "state": "Off",
+  "timestamp": "2026-09-04T17:15:56.7973167Z",
+  "timestampUtc": "2026-09-04T17:15:56.7973167Z",
+  "ownershipScope": "exact disposable DevFleet-E2E VM identity",
+  "ownershipMethod": "Get-VM -Id plus exact case-sensitive name"
+}

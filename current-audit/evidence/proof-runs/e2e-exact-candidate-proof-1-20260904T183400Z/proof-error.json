@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED",
+  "runId": "e2e-exact-candidate-proof-1-20260904T183400Z",
+  "error": "Proof lifecycle job failed: System.Management.Automation.RemoteException: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.",
+  "passwordLogged": false
+}

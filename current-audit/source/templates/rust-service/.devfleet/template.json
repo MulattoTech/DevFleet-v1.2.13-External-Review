@@ -1,0 +1,17 @@
+{
+  "id": "rust-service",
+  "language": "rust",
+  "framework": "axum",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "cargo fmt --all",
+  "lint_command": "cargo clippy --all-targets -- -D warnings",
+  "test_command": "cargo test",
+  "health_command": "./.devfleet/health-check.sh",
+  "start_command": "docker compose up -d --build",
+  "stop_command": "docker compose down --remove-orphans",
+  "restart_command": "docker compose restart",
+  "rebuild_command": "docker compose build && docker compose up -d",
+  "logs_command": "docker compose logs",
+  "codexpro_command": "./.devfleet/codexpro-bootstrap.sh"
+}

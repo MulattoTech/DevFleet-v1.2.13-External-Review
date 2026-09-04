@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+src=${1:?primary invitation required}
+jq -e '.deployment_id and .node_id and .node_role == "primary" and .protocol_version' "$src" >/dev/null
+identity=/etc/devfleet/node-identity.json
+[[ -f "$identity" ]] || { echo 'Surrogate identity is missing; refusing implicit enrollment.' >&2; exit 3; }
+jq -e '.node_role == "surrogate" and (.deployment_id == "" or .deployment_id == null)' "$identity" >/dev/null || { echo 'Existing node is not an unjoined Surrogate.' >&2; exit 3; }
+deployment=$(jq -r .deployment_id "$src")
+primary=$(jq -r .node_id "$src")
+tmp=$(mktemp)
+jq --arg deployment "$deployment" --arg coordinator "$primary" '.deployment_id=$deployment | .coordinator_node_id=$coordinator | .registration_state="joined"' "$identity" >"$tmp"
+install -o root -g devrunner -m 0640 "$tmp" "$identity"
+rm -f "$tmp"
+install -d -o devfleet-control -g devfleet-control -m 0750 /var/lib/devfleet/runtime
+registry=/var/lib/devfleet/runtime/node-registry.json
+if [[ -f "$registry" ]]; then jq -e --arg deployment "$deployment" '.deployment_id == $deployment' "$registry" >/dev/null || { echo 'Local registry deployment mismatch.' >&2; exit 3; }; else printf '{"schema_version":1,"deployment_id":"%s","nodes":[]}' "$deployment" >"$registry"; fi

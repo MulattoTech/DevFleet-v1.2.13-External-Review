@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+[[ -r /etc/devfleet/restic.env ]] || exit 0
+set -a; source /etc/devfleet/restic.env; set +a
+install -d -o devfleet-backup -g devfleet-backup -m 0750 /var/lib/devfleet/backup-status
+exec 9>/run/lock/devfleet-backup.lock
+flock -n 9 || exit 0
+exclude=$(mktemp)
+trap 'rm -f -- "$exclude"' EXIT
+cat >"$exclude" <<'EOF'
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.next
+**/dist
+**/build
+**/.cache
+EOF
+if restic backup /home/devrunner/workspaces /home/devrunner/.devfleet-quarantine --host "$(hostname)" --tag devfleet --exclude-file "$exclude" --exclude-caches; then
+  printf '{"local_backup_status":"verified","vault_upload_status":"verified","durability_level":"vault"}\n' > /var/lib/devfleet/backup-status/latest.json
+else
+  printf '{"local_backup_status":"failed","vault_upload_status":"failed","durability_level":"none"}\n' > /var/lib/devfleet/backup-status/latest.json
+  exit 1
+fi

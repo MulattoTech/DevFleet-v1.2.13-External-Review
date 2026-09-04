@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-09-04T17:15:26.8071412Z",
+  "status": "BLOCKED",
+  "primaryBlocker": "Unable to determine candidate version.",
+  "primaryBlockerClassification": "BLOCKED — RELEASE HARNESS / PLATFORM",
+  "secondaryBlockers": [],
+  "credentialsStoredInEvidence": false,
+  "credentialValuesIncluded": false,
+  "hostAgentSecretsIncluded": false
+}

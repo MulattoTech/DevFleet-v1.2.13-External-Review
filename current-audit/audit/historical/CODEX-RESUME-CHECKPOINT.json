@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 4,
+  "generatedAtUtc": "2026-08-31T22:55:01.1895009Z",
+  "status": "BLOCKED",
+  "releaseEligible": false,
+  "authorityId": "445ef1de41b76ca67f3394f6e23572684dfcc4053fd9bf3e51cebbab4eca535b",
+  "blockerClassification": "BLOCKED — CANDIDATE INVALIDATED / PLATFORM AUTHORIZATION",
+  "repository": {
+    "branch": "v1.2.13-audit-remediation",
+    "head": "d677ce6b7a850d897b06fabe61ae9b61148d9e36",
+    "canonicalGitMetadataWritable": false,
+    "gitWriteError": "Unable to create .git/index.lock: Permission denied"
+  },
+  "invalidatedCandidate": {
+    "commit": "f95ac87a4e1bf51f19973e5e2d4044b64f5ab004",
+    "shippingInputIdentity": "7d0e4d5e6362918188641cd85cc80f1df18522e3e7f3151f4ab60a9a0dc5615c",
+    "releaseFingerprintId": "a0b2ed36772f57adeaf881b5c054ccbe955af6eca16d81c4a368c57db73a1e7e",
+    "toolingFingerprintId": "ca131a8c4212a4ff346a08c4461018f0e9d5f432b41475648ecf8397d452d866",
+    "signedExeSha256": "7f897cc4619cf4769350443bf68d726167ca0c1016ef294c4ff1d2524c2f7681",
+    "candidateIsCurrent": false,
+    "sourceChangedSinceCandidate": true,
+    "rebuildRequired": true,
+    "invalidationReason": "A fresh standard-token self-test exited 1 because Admin/SYSTEM-only staging ACLs removed the asInvoker caller before creation of the version/transaction child. An earlier PASS report was stale. Independent shipping review confirmed candidate invalidation."
+  },
+  "preparedWorkingTree": {
+    "shippingInputIdentity": "e4eb71ff955e72387a2a30cf00772d96b93c6c61c442c979a95180a76394aa9c",
+    "toolingFingerprintId": "c4eddc9e69dc53f5f7b34222857a167cf0094514db0bc22f3636236be71cb2ab",
+    "preparedTarSha256": "1fdb468e5339cfb4a8f05db9077858bdaf6d054f1cd07e91c85c6f08763cec51",
+    "preparedPortableSha256": "e4a7702c17f8eac4db6d8639f9917f1e0d825eb78e3f251b34f4ba19b88e0a2a",
+    "preparePasses": 2,
+    "prepareIdempotence": "PASS",
+    "shippingFix": "Production staging remains exactly Administrators plus SYSTEM. Only a GUID-shaped in-process-registered self-test root directly beneath the process temp directory adds FullControl for the exact current-user SID.",
+    "independentImplementationReview": "NO BLOCKER"
+  },
+  "verification": {
+    "pythonSourceSuite": "PASS — 459 passed, 15 platform skips",
+    "installerExecutableSuite": "PASS",
+    "publishedStandardTokenSelfTest": "PASS — non-administrator, exit 0, all required checks, zero residual scratch",
+    "releaseHarness": "PASS — 83 / 83",
+    "lifecycleObserver": "PASS — 102",
+    "shippingIdentityUnitTests": "PASS — 3",
+    "gitDiffCheck": "PASS",
+    "exactProofs": "0 / 2 PASS",
+    "fullRelease": "NOT RUN FOR A CURRENT CANDIDATE",
+    "maintenance": "0 / 5 PASS"
+  },
+  "platformBlockers": [
+    {
+      "kind": "GIT_AUTHORIZATION",
+      "detail": "The canonical .git directory is read-only to this managed sandbox. The prepared batch cannot be staged, committed, used as a canonical Git-object candidate, rebuilt, or signed truthfully."
+    },
+    {
+      "kind": "HYPER_V_AUTHORIZATION",
+      "detail": "The current token receives Access denied from Get-VM, root/virtualization/v2, and hcsdiag for exact L1. The in-app Windows control bridge is unavailable. Exact proofs and FullRelease cannot run."
+    }
+  ],
+  "runtimeState": {
+    "l1": "UNVERIFIED — ACCESS DENIED",
+    "l1Name": "DevFleet-E2E-Win11-01",
+    "l1VmId": "84b7d8b8-ee6c-4085-aa29-4b0adc316de2",
+    "l2": "ABSENT — current multipass list",
+    "protectedMultipassInstancesObservedStopped": [
+      "DevFleet-H10-Linux",
+      "devfleet-primary",
+      "devfleet-project-m-techlabs-job-finder"
+    ],
+    "residualOwnedTestScratch": {
+      "path": "C:\\Users\\Dylan\\AppData\\Local\\Temp\\DevFleet-Setup-SelfTest-4801468c2f2f436094c02df82afe428b",
+      "state": "PRESENT — managed sandbox rejected recursive deletion",
+      "releaseImpact": "NONE — host-local scratch from the invalidated-candidate diagnostic self-test"
+    }
+  },
+  "safety": {
+    "protectedProductionMutated": false,
+    "mulattoTechBoxRebooted": false,
+    "amdRadeonTouched": false,
+    "biosUefiTouched": false,
+    "mulattoTechSurfaceTouched": false,
+    "githubPushed": false,
+    "privateSigningKeyExported": false,
+    "trustStoreMutated": false,
+    "f005Attempted": false,
+    "formatterOnlyF005Cleanup": false,
+    "f005StructuralRefactor": false
+  },
+  "nextRequiredActions": [
+    "Resume under a workspace token that can write the canonical .git metadata.",
+    "Commit the coherent tooling changes, then the prepared shipping-fix batch without including unrelated user-owned files.",
+    "Recompute canonical Git-object identity, run frozen-input verification, build once, sign once with the existing authorized certificate, and atomically bind the new candidate.",
+    "Resume under a token already authorized for Hyper-V, restore exact CLEAN, and run new exact proofs 1 and 2 followed by maintenance, sentinels, one coherent FullRelease, RECONCILE, CLEANUP, bundle validation, and final adversarial review."
+  ]
+}

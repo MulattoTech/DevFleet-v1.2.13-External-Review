@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+mode=$(jq -r '.docker_mode // "rootless"' /etc/devfleet/config.json)
+if [[ $mode == rootless ]]; then
+  export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+  export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
+  systemctl --user restart docker
+else
+  docker info >/dev/null || { echo 'Rootful Docker requires the Windows administrator Repair-DevFleet shortcut.' >&2; exit 3; }
+fi
+/usr/local/bin/devfleet-health

@@ -1,0 +1,10 @@
+Host CodexDevVM
+    HostName <PRIMARY_VM_TAILSCALE_NAME_OR_IP>
+    User devrunner
+    IdentityFile ~/.ssh/<DEVFLEET_KEY>
+    IdentitiesOnly yes
+    ServerAliveInterval 30
+    ServerAliveCountMax 4
+    TCPKeepAlive yes
+    Compression yes
+    ForwardAgent no

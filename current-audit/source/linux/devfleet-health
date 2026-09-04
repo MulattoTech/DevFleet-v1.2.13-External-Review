@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -u
+docker_mode=$(jq -r '.docker_mode // "rootless"' /etc/devfleet/config.json 2>/dev/null || echo rootless)
+if [[ $docker_mode == rootless ]]; then export DOCKER_HOST="unix:///run/user/$(id -u)/docker.sock"; export DOCKER_CONTEXT=rootless; else unset DOCKER_HOST; export DOCKER_CONTEXT=default; fi
+fail=0
+printf 'Node: '; hostname
+printf 'Tailscale: '; tailscale status --json 2>/dev/null | jq -r '.BackendState // "not-connected"' || echo unavailable
+if [[ $docker_mode == rootless ]]; then
+  printf 'Rootless Docker: '
+  if docker info --format '{{json .SecurityOptions}}' 2>/dev/null | grep -q rootless; then echo OK; else echo FAIL; fail=1; fi
+else
+  printf 'Rootful Docker: '
+  if docker info >/dev/null 2>&1; then echo OK; else echo FAIL; fail=1; fi
+fi
+printf 'DevFleet service: '; systemctl is-active devfleet || fail=1
+printf 'Disk: '; df -h /home/devrunner | tail -n1
+printf 'Workspaces: '; find /home/devrunner/workspaces -mindepth 1 -maxdepth 1 -type d | wc -l
+printf 'Backup timer: '; systemctl is-active devfleet-backup.timer || true
+if [[ -f /var/lib/devfleet/backup-status/latest.json ]]; then
+  printf 'Backup status: '; jq -r '.durability_level // .local_backup_status // "unknown"' /var/lib/devfleet/backup-status/latest.json
+else echo 'Backup: not configured or not yet verified'; fi
+exit $fail

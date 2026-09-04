@@ -1,0 +1,9 @@
+{
+  "bundledThirdPartyBinaries": [],
+  "verification": "Not applicable: no third-party prerequisite binary is embedded.",
+  "sdk": {
+    "product": ".NET SDK 8.0.408",
+    "officialSource": "https://dotnet.microsoft.com/download/dotnet/8.0",
+    "signerVerification": "Build toolchain metadata recorded; final installer is unsigned."
+  }
+}

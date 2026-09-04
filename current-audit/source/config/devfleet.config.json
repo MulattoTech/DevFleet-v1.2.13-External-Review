@@ -1,0 +1,122 @@
+{
+  "SchemaVersion": 2,
+  "PackageVersion": "1.2.13",
+  "ClusterName": "dylan-devfleet",
+  "Hosts": {
+    "DesktopFriendlyName": "DevFleet Primary",
+    "LaptopFriendlyName": "DevFleet Surrogate"
+  },
+  "Git": {
+    "UserName": "Dylan Mellor",
+    "Email": "dylanmellor@gmail.com",
+    "DefaultOwner": "MulattoTech"
+  },
+  "Development": {
+    "Profile": "balanced",
+    "EnableSharedBuildCaches": true,
+    "EnableAnalyzerCache": true,
+    "EnableTrustedOrchestrator": true,
+    "AllowLoopbackPortPublishing": true,
+    "AllowTailnetPortPublishing": true,
+    "AutoStartCodexPro": true,
+    "AutoStartProjectServices": true,
+    "RequireConfirmationForRoutineRebuild": false,
+    "RequireConfirmationForRoutineRepair": false,
+    "BackupBeforeRebuild": false,
+    "BackupBeforeQuarantine": true
+  },
+  "Docker": {
+    "PrimaryMode": "rootful",
+    "FailoverMode": "rootless",
+    "EnableBuildKit": true,
+    "EnableSharedBuildCache": true,
+    "EnableRegistryCache": false,
+    "RootfulModeAcknowledged": false
+  },
+  "CodexPro": {
+    "Mode": "project-scoped-adapter",
+    "AutoBootstrap": true,
+    "ToolCards": true,
+    "DefaultHost": "127.0.0.1",
+    "DefaultPort": 8787,
+    "SharedTransportStatus": "adapter-only-until-a-verified-multi-workspace-registration-interface-is-exposed"
+  },
+  "Ollama": {
+    "BaseUrl": "",
+    "PreferredBaseUrl": "",
+    "Model": "oaksight-gpt-oss-20b:latest",
+    "Profile": "stable-interactive",
+    "ProfilesFile": "config/ollama-profiles.json"
+  },
+  "Network": {
+    "PortalPort": 8787,
+    "VaultPort": 8000,
+    "RequireTailscale": true,
+    "TailnetCidr": "100.64.0.0/10",
+    "PublicBindingAllowed": false
+  },
+  "Primary": {
+    "InstanceName": "devfleet-primary",
+    "FriendlyName": "CodexDevVM",
+    "SshAlias": "CodexDevVM",
+    "UbuntuImage": "24.04",
+    "Cpus": 12,
+      "Memory": "12G",
+    "Disk": "220G"
+  },
+  "Failover": {
+    "InstanceName": "devfleet-failover",
+    "FriendlyName": "DevFleetFailover",
+    "SshAlias": "DevFleetFailover",
+    "UbuntuImage": "24.04",
+    "Cpus": 4,
+    "Memory": "8G",
+    "Disk": "70G"
+  },
+  "Vault": {
+    "InstanceName": "devfleet-vault",
+    "FriendlyName": "DevFleetVault",
+    "SshAlias": "DevFleetVault",
+    "UbuntuImage": "24.04",
+    "Cpus": 2,
+    "Memory": "3G",
+    "Disk": "160G"
+  },
+  "RoleProfiles": {
+    "LaptopSurrogate": {
+      "Recommended": {
+        "FailoverMemory": "5G",
+        "VaultMemory": "2G"
+      },
+      "MinimumTested": {
+        "FailoverMemory": "4G",
+        "VaultMemory": "2G"
+      }
+    }
+  },
+  "Backup": {
+    "IntervalMinutes": 15,
+    "KeepWithin": "90d",
+    "QuarantineDays": 30,
+    "RequireVerifiedBackupBeforeQuarantine": true,
+    "OfflineExportEnabled": true
+  },
+  "Safety": {
+    "DisableHostMounts": true,
+    "AllowDockerTcp": false,
+    "AllowPermanentDeleteInUi": false,
+    "RequireRootlessDocker": false,
+    "BlockWindowsPaths": true,
+    "BlockUncPaths": true,
+    "BlockWorkspaceEscape": true,
+    "OrdinaryContainersMayMountDockerSocket": false
+  },
+  "LanguagePolicy": {
+    "DefaultAutomation": "python",
+    "DefaultWindowsAdministration": "powershell",
+    "DefaultLinuxAdministration": "bash-or-python",
+    "DefaultCrossPlatformCli": "go",
+    "DefaultWebFrontend": "typescript",
+    "DefaultRapidApi": "python-fastapi"
+  }
+}

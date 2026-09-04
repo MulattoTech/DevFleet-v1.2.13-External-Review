@@ -1,0 +1,11 @@
+{
+  "id": "python-fastapi",
+  "language": "python",
+  "framework": "fastapi",
+  "maturity": "core",
+  "bootstrap_command": "./.devfleet/bootstrap.sh",
+  "format_command": "python -m ruff format .",
+  "lint_command": "python -m ruff check . && python -m mypy src",
+  "test_command": "python -m pytest -q",
+  "health_command": "python -c \"from app.main import app; assert app.title\""
+}

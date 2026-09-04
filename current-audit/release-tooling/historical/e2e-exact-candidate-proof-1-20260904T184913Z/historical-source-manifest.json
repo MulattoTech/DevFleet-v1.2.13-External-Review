@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "runId": "e2e-exact-candidate-proof-1-20260904T184913Z",
+  "proofStartSource": "proof-start.json",
+  "sourceCommitMap": {
+    "proofScript": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+    "invokeRealProductPhase": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+    "invokeWpfUiAutomation": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd"
+  },
+  "verification": "archive validator hashes each historical byte against proof-start provenance"
+}

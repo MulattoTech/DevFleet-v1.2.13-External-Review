@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "1.0.0",
+  "physicalFloorMinGiB": 8,
+  "physicalFloorPercent": 0.10,
+  "commitHeadroomFloorMinGiB": 16,
+  "commitHeadroomPercent": 0.20,
+  "commitUsageLimitPercent": 80
+}

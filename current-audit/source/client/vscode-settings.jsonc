@@ -1,0 +1,12 @@
+{
+  "remote.SSH.connectTimeout": 30,
+  "remote.SSH.useLocalServer": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "git.autofetch": true,
+  "git.detectSubmodules": false,
+  "files.watcherExclude": {"**/.git/objects/**": true,"**/node_modules/**": true,"**/.venv/**": true,"**/target/**": true,"**/.next/**": true,"**/.cache/**": true,"**/.ai-bridge/local-agent/**": true,"**/models/**": true,"**/data/generated/**": true},
+  "search.exclude": {"**/node_modules": true,"**/.venv": true,"**/target": true,"**/.next": true,"**/dist": true,"**/build": true,"**/coverage": true,"**/.cache": true,"**/.ai-bridge/local-agent": true,"**/models": true,"**/*.bin": true,"**/*.safetensors": true},
+  "python.analysis.exclude": ["**/.venv","**/.ai-bridge/local-agent","**/data/generated"],
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "editor.formatOnSave": true
+}

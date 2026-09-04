@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED",
+  "runId": "e2e-exact-candidate-proof-1-20260904T183651Z",
+  "error": "Proof lifecycle job failed: System.Management.Automation.RemoteException: The property 'BaseObject' cannot be found on this object. Verify that the property exists.",
+  "passwordLogged": false
+}

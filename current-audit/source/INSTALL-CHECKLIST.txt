@@ -1,0 +1,36 @@
+DEVFLEET SAFE REMOTE DEVELOPMENT v1.1.0 — INSTALL / UPGRADE CHECKLIST
+
+CLEAN INSTALL
+[ ] Extract locally on both Windows computers; do not run from a cloud-synced folder.
+[ ] Review config/devfleet.config.json and docs/00-HARD-STOPS-AND-ASSUMPTIONS.md.
+[ ] Close MuMu/other hypervisors during provisioning.
+[ ] Laptop Administrator: START-HERE-LAPTOP.cmd
+[ ] Approve Tailscale for Windows, failover VM, and vault VM.
+[ ] Transfer encrypted laptop bootstrap bundle to desktop.
+[ ] Desktop Administrator: START-HERE-DESKTOP.cmd
+[ ] Review the rootful-Docker explanation; type ENABLE ROOTFUL CODEXDEVVM only when you accept VM-internal rootful authority.
+[ ] Approve Tailscale for Windows and devfleet-primary.
+[ ] Transfer encrypted desktop pairing bundle to laptop.
+[ ] Laptop: windows\Complete-Cluster.ps1 -DesktopPairingBundlePath <bundle>
+[ ] Confirm Complete-Cluster configured the CodexDevVM SSH alias and core VS Code extensions.
+[ ] Optional: client\Configure-VSCode.ps1 -ExtensionSets core,python,web,enterprise,systems
+[ ] Optional Docker CLI: client\Configure-DockerContext.ps1
+[ ] Desktop: windows\Configure-Ollama.ps1 -Profile stable-interactive
+[ ] Restart Ollama, then windows\Test-Ollama.ps1 -ProbeGeneration
+[ ] Create a disposable test project; start, test, back up, quarantine, and restore it.
+
+UPGRADE
+[ ] Keep and verify the original v1.0.0 ZIP.
+[ ] Administrator: pwsh -File .\Upgrade-DevFleet.ps1 -FromVersion 1.0.0 -PreviewOnly
+[ ] Review the migration preview and backup path under C:\ProgramData\DevFleet.
+[ ] Administrator: pwsh -File .\Upgrade-DevFleet.ps1 -FromVersion 1.0.0
+[ ] Confirm pre-v1-1-0 snapshots and the upgrade-result.json file.
+[ ] Confirm baseline deployments remain Strict/rootless.
+[ ] Test health, backup, restore, CodexPro, analyzer, and ownership transfer before changing profile.
+
+NEVER
+[ ] Never enable Multipass host mounts.
+[ ] Never expose Docker 2375 or unauthenticated Docker TCP.
+[ ] Never mount Windows profiles/drives/cloud shares into projects.
+[ ] Never give ordinary project containers docker.sock.
+[ ] Never prune vault history with compute credentials.

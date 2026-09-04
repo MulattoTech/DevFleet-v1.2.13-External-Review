@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "2.0.0",
+  "compose": {
+    "supportedSchema": "compose-spec-safe-subset-2026-08",
+    "resolver": "none",
+    "transitiveResolution": "fail-closed",
+    "blockedFeatures": ["include", "extends", "use_api_socket", "volumes_from", "provider", "lifecycle-hooks", "host-backed-secrets-configs"],
+    "maxReferenceDepth": 8,
+    "maxReferenceFiles": 256,
+    "maxReferenceBytes": 33554432,
+    "environmentInterpolation": "blocked",
+    "unknownExecutionFields": "blocked"
+  },
+  "devcontainer": {
+    "supportedSchema": "devcontainer-json-safe-subset-2026-08",
+    "jsonc": true,
+    "runArgs": "reject-by-default",
+    "features": "reject-unresolved",
+    "hostCommands": "blocked",
+    "hostMounts": "blocked"
+  }
+}

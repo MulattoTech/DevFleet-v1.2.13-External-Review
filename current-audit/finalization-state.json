@@ -1,0 +1,126 @@
+{
+  "release_version": "1.2.13",
+  "installer_version": "1.4.1",
+  "workspace": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development",
+  "branch": "v1.2.13-audit-remediation",
+  "git_commit": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+  "candidate_git_commit": "f2617e2277b4fb717058feec2ca93e30761f774b",
+  "current_phase": "PRE-EXACT-PROOF",
+  "last_completed_phase": "CANDIDATE-EVIDENCE-BINDING",
+  "status": "BLOCKED",
+  "authorized_correction": {
+    "shipping_paths": [
+      "installer-source/Build-Release.ps1",
+      "installer-source/DevFleet.Setup.Tests/Program.cs",
+      "installer-source/DevFleet.Setup/Services/InstallerLifecycle.cs",
+      "installer-source/DevFleet.Setup/Services/InstallerServices.cs",
+      "source/tests/Test-DependencyTrustedRoot.ps1",
+      "source/tests/Test-DevFleetHostAgentCurrent.ps1",
+      "source/tests/Test-ProcessOutputDrain.ps1",
+      "source/windows/DevFleet-HostAgent.ps1",
+      "source/windows/DevFleet.Common.psm1"
+    ]
+  },
+  "source_changed_since_candidate": false,
+  "rebuild_required": false,
+  "source_identity_matches_candidate": true,
+  "artifact_tuple_matches_candidate": true,
+  "candidate_build_current": true,
+  "candidate_is_current": true,
+  "validation_evidence_current": false,
+  "full_release_passed": false,
+  "physical_surrogate_certification_current": false,
+  "internal_promotion_allowed": false,
+  "public_promotion_allowed": false,
+  "release_status": "BLOCKED",
+  "signing_state": "PRIVATE SELF-SIGNED AUTHENTICODE — VALID ON EXPLICITLY TRUSTED PERSONAL/TEST SYSTEMS",
+  "release_fingerprint_schema_version": 2,
+  "releaseFingerprintId": "6cd57a5c5a21b1f6ef142d695674eefaf4ab4d442b2a513c829b53989f3e3c9f",
+  "toolingFingerprintId": "5fdff42ff7b2ea11e6dad10bf09fbce981a9333b22f0ac4c22d0dab935b6a216",
+  "production_safety": {
+    "production_unchanged": true,
+    "mulattotechsurface_touched": false,
+    "scope": "disposable DevFleet-E2E resources only"
+  },
+  "candidate": {
+    "exe": {
+      "name": "exe",
+      "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+      "bytes": 72110632,
+      "sha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e"
+    },
+    "tar": {
+      "name": "tar",
+      "path": "outputs/devfleet-v1.2.13.tar.gz",
+      "bytes": 414517,
+      "sha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d"
+    },
+    "portable": {
+      "name": "portable",
+      "path": "outputs/DevFleet-v1.2.13-Portable-Codebase-Verified-r1.zip",
+      "bytes": 2671027,
+      "sha256": "d3edc43d1177a5bf7640b0f036bdb1b0a4729661d6b53231ddddbd164c203ff5"
+    },
+    "installer_source": {
+      "name": "installerSource",
+      "path": "outputs/DevFleet-v1.2.13-Installer-Source.zip",
+      "bytes": 749198,
+      "sha256": "242d339ccd378d470021361c6b1cd473657326c89bf296561efdbd51789b21ee"
+    }
+  },
+  "self_test": "PASS\r\ninstaller_version=1.4.1\r\ndevfleet_version=1.2.13\r\npayload=c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d\r\npayload_extraction=PASS\r\nbootstrap_entrypoint=PASS\r\nbootstrap_parameter_contract=PASS\r\nembedded_tar_count=1\r\nfactory_reset_backup_gate=PASS\r\nplan_safety=PASS\r\n",
+  "gates": {
+    "dependency_matrix": "UNVERIFIED — exact candidate FullRelease required",
+    "wpf": "UNVERIFIED — exact candidate FullRelease required",
+    "linux": "UNVERIFIED — exact candidate Linux validation required",
+    "primary": "UNVERIFIED — exact candidate FullRelease required",
+    "repair": "UNVERIFIED — exact candidate FullRelease required",
+    "clean_reinstall": "UNVERIFIED — exact candidate FullRelease required",
+    "uninstall": "UNVERIFIED — exact candidate FullRelease required",
+    "factory_reset": "UNVERIFIED — exact candidate FullRelease required",
+    "reboot_resume": "UNVERIFIED — exact candidate FullRelease required",
+    "maintenance": "UNVERIFIED — 0/5 promoted for current candidate",
+    "stopped_project": "UNVERIFIED — exact candidate FullRelease required",
+    "tailscale_install_deferred": "UNVERIFIED — exact candidate FullRelease required",
+    "tailscale_full_auth": "UNVERIFIED — exact candidate FullRelease required",
+    "automation_harness": "IMPLEMENTED — non-shipping tooling; complete FullRelease not yet certified"
+  },
+  "blockers": "RunId=e2e-exact-candidate-proof-1-20260904T184913Z; phase=; provider=; lastStableStep=; outcome=NOT_OBSERVED; error=; proof-start tuple is historical relative to current tooling authority",
+  "pre_sign_exe": {
+    "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+    "bytes": 72108761,
+    "sha256": "2be7ebb3a2f10b52b1af857a27832dec0d622925b0fd42fbcdeb7bfa05f214a7",
+    "authenticodeStatus": "NotSigned"
+  },
+  "private_signing_profile": "PRIVATE_SELF_SIGNED",
+  "private_signing_certificate_thumbprint": "DE42CD7369A01E9357BDA13597C0173E5E703E9D",
+  "public_publisher_trust": false,
+  "timestamp_state": "NOT TIMESTAMPED — SignTool unavailable; Set-AuthenticodeSignature fallback used",
+  "repository_head": "d65560c1ec7bf97f4002a9e9a438fbc1b25f22bd",
+  "shipping_input_identity": "194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a",
+  "signing_subject": "CN=DevFleet Private Personal Code Signing",
+  "signing_code_signing_eku": "1.3.6.1.5.5.7.3.3",
+  "signing_rsa_bits": 3072,
+  "private_key_exportable": false,
+  "private_key_exported": false,
+  "public_signing_certificate": {
+    "path": "outputs/DevFleet-Private-Personal-Code-Signing.cer",
+    "bytes": 1078,
+    "sha256": "cba81bc01314e633046691496789b30dc247771b21fa4c485aa6c1935ce987cc"
+  },
+  "candidate_binding_utc": "2026-09-04T19:55:19.2189808Z",
+  "current_authority_id": "1f26a58e0e29fe3e916e6955a3d6136952c2bb8881f0bb242710f07e08f6a206",
+  "current_proof_run_id": "e2e-exact-candidate-proof-1-20260904T184913Z",
+  "current_proof_outcome": "NOT_OBSERVED",
+  "current_proof_updated_utc": "2026-09-04T19:55:26.7288863Z",
+  "proofs_passed": 0,
+  "proofs_required": 2,
+  "working_tree_tooling_fingerprint_id": "39e6a82bc89debfa4c07a61618da476906862c1bad0c6d3c3ff4f38981f65f52",
+  "working_tree_shipping_input_identity": "194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a",
+  "proof_run_ids": [
+    "e2e-exact-candidate-proof-1-20260904T183115Z",
+    "e2e-exact-candidate-proof-1-20260904T183400Z",
+    "e2e-exact-candidate-proof-1-20260904T183651Z",
+    "e2e-exact-candidate-proof-1-20260904T184108Z"
+  ]
+}

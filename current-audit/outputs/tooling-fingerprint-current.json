@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "releaseFingerprintSchemaVersion": 2,
+  "releaseFingerprintId": "6cd57a5c5a21b1f6ef142d695674eefaf4ab4d442b2a513c829b53989f3e3c9f",
+  "toolingFingerprintId": "5fdff42ff7b2ea11e6dad10bf09fbce981a9333b22f0ac4c22d0dab935b6a216",
+  "toolingInputs": [
+    {
+      "root": "tools",
+      "path": "audit-test-manifest.json",
+      "bytes": 1306,
+      "sha256": "d4541110787db1c96ce03696393a5eb202d8c85ac6a076b2c855bf31ef594f5f",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "audit_bundle_paths.py",
+      "bytes": 1179,
+      "sha256": "c1c886fba4c84706dd0e624e08e71d398af92298e48398f1851f84179a0b77d8",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "Build-AI-CodebaseBundle.ps1",
+      "bytes": 238,
+      "sha256": "5c8c3ebb294bb267995747ebbe96d17a03f433d3882b1d8573352fe497b9312d",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "Build-AIAuditBundle.ps1",
+      "bytes": 63340,
+      "sha256": "23416b1a81c5fd4928e5d14697f2ee77e94fdc6f10b016f4b4f9ccca18f6f823",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "Build-ChatGPT-AuditBundle.ps1",
+      "bytes": 350,
+      "sha256": "6b122224f06cdf7baaba463372aea1ae686dbce43489d9c3f8647a4d8390a393",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "compute_shipping_input_identity.py",
+      "bytes": 9809,
+      "sha256": "124fb632ac98b18e48f3b163a1568b627381c1614e93f98effce4d13d254732b",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "Finalize-CandidateEvidence.ps1",
+      "bytes": 17890,
+      "sha256": "bdca49094532de11ff841fd50071f9b860bdc61c7cca85717ec9f5f1b209620c",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "Invoke-DevFleetFinalConvergence.ps1",
+      "bytes": 13637,
+      "sha256": "db9a6a59b12d7d18b8d046e4d50dc75f14908c8a4a25d77c610e1169470488d3",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "reconcile_osv_scanner.py",
+      "bytes": 5548,
+      "sha256": "6cb2abed1ebcf7784767c22714f398bd68935bb74ede1b4239c0b512794ab82b",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "release-tooling-requirements.txt",
+      "bytes": 340,
+      "sha256": "78a660089f62dde9ed045e27020e6fd7973a0addfd638e2235d8064dcd083f60",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "run_portable_audit_tests.py",
+      "bytes": 5124,
+      "sha256": "dcfbce959fcad84f19540fbd0026dd2e4611c9a1199f2263840e74591f299e11",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "test_compute_shipping_input_identity.py",
+      "bytes": 4626,
+      "sha256": "b9c3721b1ca80a5c911da31f18ae4493714c3b356798f9ecac0ac49573de4c50",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "test_failed_attempt_freeze.py",
+      "bytes": 12783,
+      "sha256": "488f455160122c12d19094897a573d103485706ac9f6bd2214651278b8bb4b59",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "test_validate_release_bundle.py",
+      "bytes": 18226,
+      "sha256": "84e8e290cf0409029f6b4bf1bb1f40e15b6553374851e666865cef7563f09cd0",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "Update-CurrentReleaseAuthority.ps1",
+      "bytes": 33880,
+      "sha256": "7c310f930005c10d30e538023e6f9b5e919b6adb56dcf0c91a4a374543a619ee",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "validate_audit_coherence.py",
+      "bytes": 16302,
+      "sha256": "cdf8b8aa5a17b40f6d571648c7e93464b528d736ad8bdf38b986b25f539a28f5",
+      "mode": "0644"
+    },
+    {
+      "root": "tools",
+      "path": "validate_release_bundle.py",
+      "bytes": 36427,
+      "sha256": "4a68a95dd608781d5900d621e8786068d783b1f0d097726f7b65a3196a847bbe",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/config/devfleet-e2e.defaults.json",
+      "bytes": 4896,
+      "sha256": "dba189413478687555bcfa20514c891c090c625411ac5c88ed50e7bd6025942c",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/Initialize-DevFleetE2ESecrets.ps1",
+      "bytes": 949,
+      "sha256": "34249b04ed46de9f5fa091c8ad5e6ed554a2f55873f4fce2bcedd8c4c5ce3cf3",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/Invoke-AutomatedInteractiveLoginSmoke.ps1",
+      "bytes": 27522,
+      "sha256": "d6497666067d0e11eb8462a9ed243186835ef82f09d7b3432466d310923d44c3",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/Invoke-DevFleetReleaseE2E.ps1",
+      "bytes": 16203,
+      "sha256": "72592a905979fb78e25a5a63710b66b23a76819ba2c4560cf182917f0d4e73ef",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/Invoke-FocusedMaintenanceSentinels.ps1",
+      "bytes": 4238,
+      "sha256": "1c0199460859e7964e39c03159cd3e49dbf47b3567fb33ad2fc1ef8c2f8753d9",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/Candidate.psm1",
+      "bytes": 14573,
+      "sha256": "43633533d5bb7fdff894fcef5e6c32fda2722b2e7faf16dd6ad0dbff8a3eced8",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/Cleanup.psm1",
+      "bytes": 4231,
+      "sha256": "983aa6b62d7bbf7e1431f78f8f370646679b96c177bee68a7a15528600fd689d",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/Evidence.psm1",
+      "bytes": 1773,
+      "sha256": "9cb4b87308d2ecbf050d42a4be0aa52109952909a2d978ea16df9ab61761dcff",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-AuditPhase.ps1",
+      "bytes": 234,
+      "sha256": "b01b6c2141955adb2c9544ecf9ab4d7d4ce3322ec01e62bfffd20009e216da95",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-DependencyMatrix.ps1",
+      "bytes": 234,
+      "sha256": "b01b6c2141955adb2c9544ecf9ab4d7d4ce3322ec01e62bfffd20009e216da95",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-HostAgentPhase.ps1",
+      "bytes": 234,
+      "sha256": "b01b6c2141955adb2c9544ecf9ab4d7d4ce3322ec01e62bfffd20009e216da95",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-HttpHostilePhase.ps1",
+      "bytes": 3111,
+      "sha256": "e2d8ba28381c7fc3c3872312d6b7f964ca8e7b48d5dc03ada9d6c6b9a6f17ee1",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-LinuxPhase.ps1",
+      "bytes": 237,
+      "sha256": "37bf83af6eb4acf2d956473bed6e5629bd423d6309ad7d0067b5ab98d0a18858",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-MaintenancePhase.ps1",
+      "bytes": 234,
+      "sha256": "b01b6c2141955adb2c9544ecf9ab4d7d4ce3322ec01e62bfffd20009e216da95",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-PrimaryPhase.ps1",
+      "bytes": 234,
+      "sha256": "69f0b4b0b9e7204235b768adc34df5cc265cd77ac632515a79c838b8f8acb541",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-ProductLifecycleScenario.py",
+      "bytes": 21177,
+      "sha256": "20da566cb2c7fcbaca5d5a15262f1afbb04981c87121f8989015945b6d6bbea2",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-RealProductPhase.psm1",
+      "bytes": 216469,
+      "sha256": "c1e2c357f7fc2689e56168e2b167c84a73ec8764abd958bb6a7d8766b340451c",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-SecurityPoisonPhase.ps1",
+      "bytes": 4262,
+      "sha256": "71f7122b4021368cbe36980d75750d9e7a4927c94e695057f83f0f2800f45966",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-TailscalePhase.ps1",
+      "bytes": 234,
+      "sha256": "b01b6c2141955adb2c9544ecf9ab4d7d4ce3322ec01e62bfffd20009e216da95",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-WpfPhase.ps1",
+      "bytes": 234,
+      "sha256": "b01b6c2141955adb2c9544ecf9ab4d7d4ce3322ec01e62bfffd20009e216da95",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/executors/Invoke-WpfUiAutomation.ps1",
+      "bytes": 17794,
+      "sha256": "956ed272d1cb3d6bb3fd2a9f12bcbcc830c01911bd18002ad4e762e70f7fea0e",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/FullRelease.psm1",
+      "bytes": 56286,
+      "sha256": "a011ca055e897ce758353af14247831abf334ffe04ea5e5a9eb5db7238ad1b38",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/GuestSession.psm1",
+      "bytes": 4679,
+      "sha256": "00f697782c57d3611f4890c8058f742ae5f2158fb32c98adcbdc18d86bd99d3a",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/HarnessBudget.psm1",
+      "bytes": 12468,
+      "sha256": "ba1acdaa0acc82f80d02501fc32d5810db59235137cef30c93537a9a214ce121",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/HostSafety.psm1",
+      "bytes": 8910,
+      "sha256": "9dcbac957f5aa060f0441eb8d372e39a190aab54cbf9af718a05368e567cb6c1",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/InteractiveLogon.psm1",
+      "bytes": 71931,
+      "sha256": "0d845ac096e13d8bd1f8c7020f6c5d6de17bc3a19d514ba6c1e89dbc30318591",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/ResumeState.psm1",
+      "bytes": 2102,
+      "sha256": "509a9eb774d88d654b02210f9e7303fc7accd016e4507501d72e4172bc10e180",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/Secrets.psm1",
+      "bytes": 1166,
+      "sha256": "c4de8842fc4900056d6f5b9f7aecc78e6bbc01ec32e4c66a269b2e38fc1a40ac",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/modules/TailscaleE2E.psm1",
+      "bytes": 5040,
+      "sha256": "1e6784ffa97df200b8daf33ee04caae9470065a48f3f9191a66f5381f129ae78",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/README.md",
+      "bytes": 4755,
+      "sha256": "73644cff03c413f32b435ffd2f3b9dee57983c43e72a514f7e4fd6c4d944da07",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/DependencyPolicyRunner/ArgumentAwareProcessRunner.cs",
+      "bytes": 4263,
+      "sha256": "f961705e4e4a12eceda370814e59b4fcdd6fab3871215ce8fed14232d702a25d",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/DependencyPolicyRunner/DependencyPolicyRunner.csproj",
+      "bytes": 924,
+      "sha256": "66171a9c8d3bad0472e75ec38cfa7045fd42c8e234525e4c971162f7c83d4f36",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/DependencyPolicyRunner/Program.cs",
+      "bytes": 15036,
+      "sha256": "6893861557d1c3008256690c5f71a92a63a3bff1b3f1796cdc445e9da0550080",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Invoke-HarnessTests.ps1",
+      "bytes": 41130,
+      "sha256": "9df662fef400f41ffe522f89efd194919115ab1d6d5a9134c9e965e031b7412e",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Test-FinalConvergenceContracts.ps1",
+      "bytes": 2405,
+      "sha256": "7cb194fb20e3d56bdf49df0ee5351de25fd467e036c7395e1a80fa89f9cbfbdb",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Test-InstallerSelfTestStandardToken.ps1",
+      "bytes": 4027,
+      "sha256": "94379aae0c3fe51a0e389fba77de1ac5af062d3a2e4329b597a24ff2929bbd03",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Test-InteractiveLogonContracts.ps1",
+      "bytes": 16941,
+      "sha256": "6953c178b97bb9859f056c99f4d76a30ea74db8208c4fb505b98716c7d7b2857",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Test-LifecycleObserverBehavior.ps1",
+      "bytes": 44503,
+      "sha256": "322fe40a83845dde88f766773545bc522ec93ebbe6932288971c9dc49d387ffc",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Test-ReleaseIntegrityContracts.ps1",
+      "bytes": 3029,
+      "sha256": "fe2d11caafc0f1019ceb180acbfbe61cad73147b92ab6c13c0da8e36818673cc",
+      "mode": "0644"
+    },
+    {
+      "root": "automation",
+      "path": "release-e2e/tests/Test-SecurityPoisonHostAgent.ps1",
+      "bytes": 5702,
+      "sha256": "611abf463f61e0b1c29e11819eabe9772c54e2751075bd18cd89af69711d0224",
+      "mode": "0644"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "exe",
+      "path": "outputs/DevFleet-Setup-v1.2.13-win-x64.exe",
+      "bytes": 72110632,
+      "sha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e"
+    },
+    {
+      "name": "tar",
+      "path": "outputs/devfleet-v1.2.13.tar.gz",
+      "bytes": 414517,
+      "sha256": "c5c7e6b142bc5f426f70ca0b1879df28f535bb518bb2e8535ecf1db54e794b1d"
+    },
+    {
+      "name": "portable",
+      "path": "outputs/DevFleet-v1.2.13-Portable-Codebase-Verified-r1.zip",
+      "bytes": 2671027,
+      "sha256": "d3edc43d1177a5bf7640b0f036bdb1b0a4729661d6b53231ddddbd164c203ff5"
+    },
+    {
+      "name": "installerSource",
+      "path": "outputs/DevFleet-v1.2.13-Installer-Source.zip",
+      "bytes": 749198,
+      "sha256": "242d339ccd378d470021361c6b1cd473657326c89bf296561efdbd51789b21ee"
+    }
+  ],
+  "candidateGitCommit": "f2617e2277b4fb717058feec2ca93e30761f774b",
+  "shippingInputIdentity": "194f64f99a4268c8b5b47abad9d73379e8eca10187e377a7f79b1693adecb39a",
+  "lineEndingComparison": "CRLF_ONLY",
+  "crlfOnlyPaths": [
+    "installer-source/DevFleet.Setup.Tests/DevFleet.Setup.Tests.csproj",
+    "installer-source/DevFleet.Setup/App.xaml",
+    "installer-source/DevFleet.Setup/AssemblyInfo.cs",
+    "source/MIGRATION-ROLLBACK.md",
+    "source/templates/cpp-cmake/.devfleet/template.json",
+    "source/templates/data-r/.devfleet/template.json",
+    "source/templates/dotnet-service/.devfleet/template.json",
+    "source/templates/elixir-phoenix/.devfleet/template.json",
+    "source/templates/flutter/.devfleet/template.json",
+    "source/templates/generic/.devfleet/template.json",
+    "source/templates/go-service/.devfleet/template.json",
+    "source/templates/java-spring/.devfleet/template.json",
+    "source/templates/kotlin-service/.devfleet/template.json",
+    "source/templates/node/.devfleet/template.json",
+    "source/templates/php-laravel/.devfleet/template.json",
+    "source/templates/python-fastapi/.devfleet/template.json",
+    "source/templates/python/.devfleet/template.json",
+    "source/templates/ruby-rails/.devfleet/template.json",
+    "source/templates/rust-service/.devfleet/template.json",
+    "source/templates/scientific-julia/.devfleet/template.json",
+    "source/templates/shell-automation/.devfleet/template.json",
+    "source/templates/sql-project/.devfleet/template.json",
+    "source/templates/typescript-next/.devfleet/template.json",
+    "source/templates/typescript-node/.devfleet/template.json"
+  ],
+  "generatedAt": "2026-09-04T19:55:16.1103321Z"
+}

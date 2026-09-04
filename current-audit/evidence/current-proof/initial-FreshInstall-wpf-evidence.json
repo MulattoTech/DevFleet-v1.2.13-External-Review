@@ -1,0 +1,153 @@
+{
+  "status": "DURABLE_PENDING",
+  "action": "FreshInstall",
+  "role": "Primary / Desktop",
+  "processId": 5700,
+  "sessionId": 1,
+  "driverPid": 11136,
+  "driverSessionId": 1,
+  "windowTitle": "DevFleet Setup",
+  "visibleNames": [
+    "DEVFLEET",
+    "Connected Setup and Maintenance Wizard",
+    "DevFleet 1.2.13  ·  Installer 1.4.1  ·  Official-source connected setup",
+    "SAFE SCOPE",
+    "  No reboot · no driver changes · no production wipe",
+    "WIZARD",
+    "1  Welcome and detect",
+    "2  Choose action",
+    "3  Preflight",
+    "4  Scope and recovery",
+    "5  Review exact plan",
+    "6  Execute and verify",
+    "Protected by design",
+    "Ownership proofs, typed confirmations, recovery packages, atomic ledger, redacted logs.",
+    "STEP 7 OF 8 · EXECUTE",
+    "Execute and verify",
+    "Every mutation is hash-verified, ownership-aware, logged, and recoverable where applicable.",
+    "Ready",
+    "Copy diagnostics",
+    "Copy diagnostics",
+    "Back",
+    "Back",
+    "Execute verified plan",
+    "Execute verified plan",
+    "Cancel",
+    "Cancel"
+  ],
+  "actions": [
+    {
+      "name": "startup",
+      "result": "PASS",
+      "window": "DevFleet Setup"
+    },
+    {
+      "name": "navigation",
+      "result": "INVOKED",
+      "label": "Next"
+    },
+    {
+      "name": "navigation",
+      "result": "INVOKED",
+      "label": "Next"
+    },
+    {
+      "name": "navigation",
+      "result": "INVOKED",
+      "label": "Next"
+    },
+    {
+      "name": "navigation",
+      "result": "INVOKED",
+      "label": "Next"
+    },
+    {
+      "name": "navigation",
+      "result": "INVOKED",
+      "label": "Next"
+    },
+    {
+      "name": "navigation",
+      "result": "INVOKED",
+      "label": "Next"
+    },
+    {
+      "name": "execute",
+      "result": "INVOKED"
+    },
+    {
+      "name": "confirmation",
+      "result": "NATIVE_IDYES_EXACT_DIALOG_PROCESS_VERIFIED"
+    }
+  ],
+  "diagnostics": [],
+  "postConfirmationState": {
+    "hasExited": false,
+    "sessionId": 1,
+    "mainWindowHandle": 197322,
+    "mainWindowTitle": "DevFleet Setup",
+    "responding": true,
+    "cpuSeconds": 10.921875,
+    "visibleNames": [
+      "DEVFLEET",
+      "Connected Setup and Maintenance Wizard",
+      "DevFleet 1.2.13  ·  Installer 1.4.1  ·  Official-source connected setup",
+      "SAFE SCOPE",
+      "  No reboot · no driver changes · no production wipe",
+      "WIZARD",
+      "1  Welcome and detect",
+      "2  Choose action",
+      "3  Preflight",
+      "4  Scope and recovery",
+      "5  Review exact plan",
+      "6  Execute and verify",
+      "Protected by design",
+      "Ownership proofs, typed confirmations, recovery packages, atomic ledger, redacted logs.",
+      "STEP 7 OF 8 · EXECUTE",
+      "Execute and verify",
+      "Every mutation is hash-verified, ownership-aware, logged, and recoverable where applicable.",
+      "Invoking actual connected installation chain: Bootstrap-Install.ps1 -Role Desktop -NonInteractive -InstallationMode Connected -DeferNetworkPairing",
+      "Copy diagnostics",
+      "Copy diagnostics",
+      "Back",
+      "Back",
+      "Execute verified plan",
+      "Execute verified plan",
+      "Cancel",
+      "Cancel"
+    ]
+  },
+  "mutationInvoked": true,
+  "dispatcherResponsive": true,
+  "completionVerified": false,
+  "durableCompletionPending": true,
+  "taskPrincipal": "DEVFLEET-E2E-01\\E2EAdmin",
+  "PSComputerName": "DevFleet-E2E-Win11-01",
+  "RunspaceId": "432ea314-7681-4270-9e67-2fdcf565b9e0",
+  "PSShowComputerName": true,
+  "evidenceLabel": "initial-FreshInstall",
+  "runId": "e2e-exact-candidate-proof-1-20260904T184913Z",
+  "phaseId": "REBOOT-RESUME-1f4c56357a394482b4d718ff6be59718",
+  "candidatePath": "C:\\Users\\Dylan\\Documents\\Codex\\2026-08-12\\ex-2\\work\\DevFleet-v1.2.13-development\\outputs\\DevFleet-Setup-v1.2.13-win-x64.exe",
+  "candidateSha256": "8f892501544c367da75a43c025dd711feffabc3740068f1d13d3dd8f4c5ff78e",
+  "bootIdentity": "2026-09-04T18:50:27.3083440Z",
+  "processStartTime": "2026-09-04T18:51:56.1325956Z",
+  "evidenceProvenance": "Invoke-ActualWpfAction/Invoke-WpfUiAutomation",
+  "interactiveSessionId": 1,
+  "driverIdentity": {
+    "present": true,
+    "pid": 11136,
+    "user": "E2EAdmin",
+    "domain": "DEVFLEET-E2E-01",
+    "owner": "DEVFLEET-E2E-01\\E2EAdmin",
+    "sessionId": 1
+  },
+  "candidateIdentity": {
+    "present": true,
+    "pid": 5700,
+    "user": "E2EAdmin",
+    "domain": "DEVFLEET-E2E-01",
+    "owner": "DEVFLEET-E2E-01\\E2EAdmin",
+    "sessionId": 1
+  }
+}
