@@ -18,4 +18,10 @@ Current authoritative tuple:
 
 Important: the latest proof was interrupted while still producing progress evidence. It is also historical relative to current tooling authority, so it cannot count as current certification evidence.
 
-Begin with `01-AI-AGNOSTIC-TROUBLESHOOTING-PROMPT.md`.
+Begin current troubleshooting with `01-AI-AGNOSTIC-TROUBLESHOOTING-PROMPT.md`.
+
+## Future product roadmap
+
+Future/post-v1.2.13 feature requests are intentionally kept separate from current certification evidence. See:
+
+- [`ROADMAP-FEATURE-REQUESTS.md`](ROADMAP-FEATURE-REQUESTS.md) — modular architecture, Ralph/Ultron loop, DevFleet Foundry/120x-style launcher, Mission Control/project progress, prompt-driven project creation, stalled-project rescue, template library, and stopped-runtime UX requirements.
